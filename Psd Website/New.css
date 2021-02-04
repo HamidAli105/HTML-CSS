@@ -1,0 +1,98 @@
+.main{width:100%; height:auto; float:left; position:relative;}
+.up{width:100%; height:600px; background-color:290000;}
+.header{width:100%; height:150px; color:white;}
+.headerleft{width:30%; height:100px; float:left; position:relative;}
+.the{font-size:30px; color:white; margin: 20px 0px 0px 100px;}
+.fre{font-size:13px; color:#0FF; margin: -9px 0px 0px 105px;}
+
+.headerright{width:100%; height:100px; color:white;}
+.home{font-size:12px; color:white !important; margin:40px 0px 0px 70px; float:left; position:relative;}
+a:hover{background-color:76C38F; color:white; font-size:18px; border-radius: 12%; padding: 5px 5px 5px 5px;}
+a:visited{background-color:76C38F; color:white; font-size:18px; border-radius: 12%; padding: 5px 5px 5px 5px;}
+
+.sliderleft{width:50%; height:400px; float:left; position:relative;}
+.cursus{font-size:28px; color:white; text-align:center; margin: 40px 0px 0px -120px; font-family: initial;}
+.null{font-size:12px; color:FFFFFF; margin: -6px 0px 0px 154px; float:left; position:relative;}
+.read{font-size: 16px;
+background-color: 76C38F;
+color: white;
+margin: 67px 0px 40px 155px;
+border-radius: 13%;
+width: 25%;
+height: 40px;
+padding: 10px 5px 5px 10px;}
+
+.margin380{
+	margin:165px 0px 0px 5px;
+}
+.sliderright{width:50%; height:400px; float:left; position:relative;}
+.circle{width:380px; height:380px; background-color:333333; color:white; text-align:center; margin: 20px 0px 0px 20px; border-radius: 50%; 
+ float:left; position:relative;}
+.under{width:420px; height:420px; background-color:6B6B6B; margin: 0px 0px 0px 0px; border-radius: 50%;
+ float:left; position:relative;}
+.margin{margin:-40px 0px 0px 40px; float:left; position:relative;}
+
+.medium{width:100%; height:900px; background-color:660000; float:left; position:relative;}
+.mediumuper{width:100%; height:400px; float:left; position:relative;}
+.medium1{width: 20%;
+height: 75%;
+background-color:FFFFFF;
+float: left;
+position: relative;
+margin: 30px -67px 0px 80px;}
+
+.medium1 a:hover{
+	background-color:76C38F !important;}
+.mediumlog{width:120px; height:120px; background-color:333333; margin: 20px 0px 0px 54px; float:left; position:relative;}
+.title{font-size:24px; font-family:"Courier New", Courier, monospace; text-align:center; color:333333;}
+.mediumwri{font-size:12px; text-align:center; color:979797;}
+
+.latest{width:100%; height:500px; float:left; position:relative;}
+.latestwri{font-size: 24px;
+color: #FFF;
+background-color: #303030;
+width: 200px;
+height: 50px;
+border-radius: 12%;
+text-align: center;
+padding: 8px 5px 5px 5px; font-family: Georgia, "Times New Roman", Times, serif; margin-left: 40%;}
+.latestlorm{width:290px; height:190px; border:solid; border-color:white;
+             background-color:353535; margin:12px -50px 0px 88px; float:left; position:relative;}
+.lormwri{font-size: 12px;
+    background-color: #151515;
+    color: #FFF;
+    text-align: center;
+    margin: 146px 0px 0px 0px;
+    float: left;
+    position: relative;
+    width: 100%;
+    height: 20%;
+    padding: 11px; font-family:Georgia, "Times New Roman", Times, serif;}
+	
+	
+.low{width:100%; height:420px; background-color:303030; float:left; position:relative;}
+.low1{width:22%; height:320px; margin:20px 0px 0px 20px; float:left; position:relative;}
+.lowwri{font-size:18px; color:white; font-family:Georgia, "Times New Roman", Times, serif; margin: 20px 0px 0px 5px;}	
+.lowwri1{font-size:15px; color:76C38F; font-family:"Courier New", Courier, monospace; margin: 20px 0px 0px 5px;}
+.lowwri3{font-size:16px; color:76C38F; font-family:"Courier New", Courier, monospace;
+           margin: 7px 0px 0px 7px; float:left; position:relative;}
+.lowmargin{margin: 14px 0px 0px 0px;}
+.domain{font-size:12px; color:979797; margin: 8px 0px 0px 7px; float:left; position:relative;}
+.date{font-size:12px; color:979797; margin: 5px 0px 0px 7px; float:left; position:relative;}
+.lowwri2{font-size:12px; color:979797; margin: 20px 0px 0px 7px; float:left; position: relative;}	
+.more{font-size:16px; color:76C38F; margin: 7px 0px 0px 7px; float:left; position: relative;} 
+
+.frmwidth{width:90%; height:15%; float:left; position:relative;
+           background-color:222222; border-radius: 12%; margin:5px 0px 0px 0px; color:white;}
+.message{width:90%; height:25%; float:left; position:relative; border-radius: 12%;
+          background-color:222222; margin: 5px 0px 0px 0px; color:white;}
+.submit{background-color:76C38F; width:32%; height:12%; float:left; position:relative;
+           margin: 5px 0px 0px 5px; border-radius:12%;}
+.end{width:100%; height:11%; background-color:2B2B2B; float:left; position:relative;}
+.endleft{font-size:14px; color:979797; width:50%; height:20%; float:left; position:relative;}	
+.endwri1{margin: 30px 0px 0px -70px; text-align:center;}
+.endright{font-size:14px; color:979797; width:50%; height:20%; float:left; position:relative;}
+.endwri2{margin: 30px 0px 0px 70px; text-align:center;}	
+   
+	
+.medium1 a:hover{background-color:76C38F;}		   

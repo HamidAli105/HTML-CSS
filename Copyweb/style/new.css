@@ -1,0 +1,93 @@
+
+.main{width:100%;  height:2000px; float:left; position:relative;}
+.upper{width:100%; height:800px; float:left; position:relative; margin: 0px 0px 0px 0px; background-image:url(../img/intro-bg.jpg);  background-size:100%; height: 800px; background-repeat:no-repeat;}
+.title{width:33%; height:170px; float:left; position:relative;}
+.stand{font-size: 21px;
+       color: white;
+margin: 30px 0px 0px 100px;}
+.menu{width: 46%;
+height: 170px;
+float: left;
+position: relative;
+margin: -20px 0px 0px 270px;}
+.mwri{font-size:17px; color:#FFF; margin: 50px 0px 0px 22px; float:left; position:relative;} 
+.up{width:100%; height:440px; float:left; position:relative;}
+.up1{font-size:24px; margin: 10px 0px 0px 200px; color:#FFF;}
+.up2{font-size: 25px; color:#CCC; margin: 54px 0px 0px 200px; background-color:white; width: 165px; height: auto; padding: 12px 12px 12px 12px;}
+.up3{font-size: 40px;
+color: white;
+margin: -47px 0px -36px 202px; font-weight:300px;}
+
+.medium{width:100%; height:500px; float:left; position:relative; margin: 150px 0px 0px 0px;}
+.about{color:black; font-size:36px; text-align:center;}
+.abtline{width:100px; height:1px; color:#333; float:left; position:relative; margin: 0px 0px 0px 0px;}
+.abttext{width:40%; height:500px; float:left; position: relative;}
+.abtpic{width:38%; height:500px; margin: 83px 0px 0px 45px; float:left; position:relative;}
+
+.m1{color:#39F; font-size:20px; margin:105px 0px 0px 15px;; float:left; position:relative;}
+.m2{color:#69C; font-size:16px; margin: 160px 0px -114px 12px;}
+.aboutpic{margin:0px 0px 0px 0px; float:left; position:relative;}
+
+.lower{width:100%; height:350px; float:left; position:relative;}
+.lwlne{width:80%; height:1px; float:left; position:relative; color:black;}
+.oursrvce{font-size:36px; color:black; text-align:center;}
+.lone{font-size:18px; text-align:center; margin: 35px 0px 0px 0px;}
+.ltwo{font-size:20px; color:#C54DAA; font-weight:300; margin: 0px 0px 0px 133px; float:left; position:relative;}
+.lthree{font-size:16px; color:#333; margin: 0px 0px 0px 80px; float:left; position: relative;}
+.lowmain{margin: 0px 0px 0px 0px; float:left; position:relative;}
+.lowspan{margin:0px 0px 0px 0px 0px; font-size:14px; color:#333; float:left; position:relative}
+
+
+
+.gallery{ width:100%;
+height:800px;
+background-color:#F6F6F6;
+position:relative;
+float:left;}
+.gwri{font-size:36px; color:#666; text-align:center}
+.gwri1{font-size:18px; color:#F6C; text-align:center;}
+.gwri2{font-size:18px; color:#039; margin: 25px 0px 0px 20px; float:left; position:relative; border:groove;
+ padding: 2px 6px 4px 6px;}
+.glrypic{float: left;
+position: relative;
+width: 15%;
+height: 130px;
+margin: 50px 0px 0px 74px}
+.galrymain{float: left;
+position: relative;
+margin: 20px 0px 0px 400px;
+width: 53%;
+height: 23px;}
+.bottom{width:100%; height: 600px; background-image:url(../img/achievements-bg.jpg); background-size:100%; height:600px; float:left; position:relative;}
+.btmwri1{font-size:36px; color:white; text-align:center; margin: 50px 0px 0px 0px;}
+.btmwri2{color: white; font-size:24px; margin: 50px 25px 0px 226px; float:left; position:relative;}
+.btmwri3{color:white; font-size:24px; margin: 5px -65px 0px 202px; float:left; position:relative;}
+
+
+.testmonial{width:100%; height:550px; float:left; position:relative;}
+.testwri1{font-size:36px; text-align:center; color:#C3C; margin: 70px 0px 0px 0px;}
+.testpic{width:140px; height:140px; margin: 25px 0px 0px 606px; background-image:url(../1.PNG); background-position:center; background-repeat:no-repeat;
+ float:left; position:relative; border-radius:50%;}
+.testwri2{font-size:18px; margin: 25px 0px 0px 360px; text-align:center; color:#96F; float:left; position:relative;}
+.testwri3{font-size:24px; margin: 140px 0px 0px -466px; color:#99C; float:left; position:relative;}
+.testwri4{font-size:24px; margin: 140px 0px 0px -357px; color:#99C; float:left; position:relative;}
+.testwri5{font-size:20px; margin: 140px 0px 0px -300px; color:#CCC; float:left; position:relative;}
+
+
+.gettouch{width:100%; height:400px; float:left; position:relative;}
+.getwri1{font-size:40px; color:#777; text-align:center;}
+.getwri2{font-size:24px; color:#9CF; text-align:center;}
+.name{margin: 0px 0px 0px 30px; float:left; position:relative; width:30%; height:40px;}
+.namemrgn{margin: 15px 0px 0px 320px;}
+.message{width:48%; height:70px; margin: 10px 0px 0px 350px; float:left; position:relative;}
+.button{width:10%; height:50px; background-color:red; color:white; margin: 100px 0px 0px -375px;
+        border-radius: 25%; float:left; position:relative;}
+		
+.social{width:35%; height:50px; margin: 0px 0px 0px 550px; float:left; position:relative;}
+.fcbk{font-size:24px; padding:4px; color:#C54DAA; margin: 0px 0px 0px 5px;}
+.copy{width:100%; height:50px; background-color: #96F; text-align:center; padding: 30px 0px 0px 0px;
+       margin: 10px 0px 0px 0px; float:left; position:relative;}		
+
+.color{color:white;}
+
+.line{width:70px; height:2px; background-color:#C54DAA; margin: 20px 0px 0px 635px; float:left; position:relative;}

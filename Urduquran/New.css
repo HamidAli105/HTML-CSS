@@ -1,0 +1,91 @@
+.main{width:100%; height:auto;}
+.up{width:100%; height:144px;float:left; position:relative;}
+.logo{width:22%; height:100%; float:left; position:relative; background-image:url(Images/logo.jpg); background-repeat:no-repeat; background-position:center;}
+.ads{width:77%; height:100%; float:left; position:relative;
+ background-image: url(Images/topad.GIF); background-repeat:repeat-x; background-position:center;}
+.adswri{font-size:36px; font-family:"Comic Sans MS", cursive; text-align:center; color:white; margin: 50px 0px 0px 0px;}
+
+.home{width:100%; height:90px;; float:left; position:relative;}
+
+.homewri{width:100%; height:45%; margin: 0px 0px 0px 0px; float:left; position: relative;}
+
+.urdu{width:100%; height:45%; color:black; margin: 0px 0px 0px 0px; 
+         padding: 0px 0px 0px 0px; float:left; position:relative;}
+
+
+.postmain{width:15%; height:1280px;; float:left; position:relative; border: dotted; margin: 2px 0px 0px 0px;}
+
+.postnews{width:76%; height:760px; border-bottom:solid;  border-bottom:solid;}
+.postwri1{font-size:12px; color:#637AA4; font-family:Verdana, Geneva, sans-serif; margin: 10px 0px 0px 10px;}
+
+.webmaster{width:75%; height:5%; border-bottom:solid;}
+.postwri2{font-size:14px; color:blue; font-family:Verdana, Geneva, sans-serif; margin: 10px 0px 0px 10px; float:left; position:relative; padding: 10px 0px 0px 0px;}
+
+.ecomrce{width:75%; height:8%; margin: 5px 0px 0px 0px; border-bottom:solid;}
+.postwri3{font-size:13px; color:white;  margin: 4px 0px 0px 4px; float:left; position:relative;}
+.domain{margin: 0px 0px 0px -25px;}
+
+.job{width:75%; height:14%; border-bottom:solid; background-size:90px;}
+.jobwri{font-size: 15px;color: #666;margin: 5px 0px 0px -16px; padding: 12px 0px 0px 0px;}
+
+.favorite{width:60%; height:36px; background-color:; color:white; border-radius: 12%; text-align:center; margin: 112px 0px 0px 30px;
+padding: 10px 0px 0px 0px;}
+
+.medium{width:70%; height:2466px; float:left; position:relative; margin: 0px 0px 0px 0px;}
+
+.mediumheader{width:100%; height:150px; background-color: #396318; float:left; position:relative;}
+.mediumheaderleft{width:50%; height:140px; float:left; position:relative;}
+.mediumheaderwri1{
+	font-size: 55px;
+	font-family: "MS Serif", "New York", serif;
+	text-align: center;
+	color: black;
+	font-style: italic; margin: 0px 0px 0px -30px; padding: 22px 0px 0px 0px;
+}
+.mediumheaderright{width:50%; height:140px; float:left; position:relative;}
+.mediumheaderimg{margin:0px 0px 0px 250px;}
+
+
+.mediumul{width:100%; height:85px;; margin: 0px 0px 0px 0px; float:left; position:relative;}
+
+.islamiwlpaper{width:34%; height:100%; margin: 0px 0px 0px 0px;float:left; position:relative;}
+.islamiwri{font-size:18px; color:black; margin: 0px 0px 0px 0px;}
+
+.naturalwlpaper{width:33%; height:100%; margin: 0px 0px 0px 0px; float:left; position:relative;}
+.naturalwri{font-size:18px; color:black; margin: 0px 0px 0px 0px;}
+
+.gamewlpaper{width:33%; height:100%; margin: 0px 0px 0px 0px; float:left; position:relative;}
+.gamewri{font-size:18px; color:purple; margin: 0px 0px 0px 0px;}
+
+
+.islamicpaper{width:100%; height:45px; float:left; position:relative; background-color:#F5F5F5;
+             border:dashed; margin:5px 0px 0px 0px;}
+.islamicwri{font-size:24px; color:black; padding: 0px 0px 0px 20px; font-family:Tahoma, Geneva, sans-serif;}
+
+
+
+  
+.viewlpaper{width:100%; height:1686px; float:left; position:relative; border:groove;} 
+
+.viewimgmargin{margin: 20px 0px 0px 0px; float:left; position:relative;} 
+.viewwri{font-size:14px; color:black; margin: 0px 0px 0px 0px; float:left; position:relative;}
+
+.rightad{width:196px; height:1180px; float:left; position:relative; margin: 0px 0px 0px 0px;
+ background-image: url(Images/rightad.gif); background-repeat:repeat-y; 
+ background-position:center; color:black; font-size:24px; border:groove;}
+
+.popular{width:95%; height:90px; font-size:15px; margin:15px 0px 0px 0px; 
+ padding: 0px 0px 0px 70px; float:left; position:relative;}
+
+.foter{width:95%; height:50px; background-color: #E6ECF9; margin:0px 0px 0px 0px; float:left; position:relative;}
+.foterwri{font-size:14px; color:black; margin: 0px 0px 0px 0px; padding: 2px 0px 0px 10px; float:left; position:relative;}
+
+.line{width:95%; height:2px; background-color:#0F0; margin: 0px 0px 0px 0px; float:left; position:relative;}
+
+.end{width:95%; height:2%; text-align:center; margin:0px 0px 0px 0px; float:left; position:relative;}
+
+
+
+.sliderpic{width:100%; height:22px; text-align:center; font-size:36px; color:white;
+margin: 0px 0px 0px 0px;  float:left; position:relative; background-position:center;}
+

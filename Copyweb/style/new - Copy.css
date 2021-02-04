@@ -1,0 +1,16 @@
+
+.main{width:1200px;  height:2000px; float:left; position:relative;}
+.upper{width:1200px; height:600px; float:left; position:relative; margin: 0px 0px 0px 0px; background-image:url(../img/intro-bg.jpg); background-size:1200px; height:600px;}
+.title{width:400px; height:170px; float:left; position:relative;}
+.stand{font-size: 36px; color:#F6F; margin: 47px 0px 0px 40px;}
+.menu{width:800px; height:170px; float:left; position:relative;}
+.mwri{font-size:24px; color:#FFF; margin: 50px 0px 0px 40px; float:left; position:relative;} 
+.up{width:1200px; height:500px; float:left; position:relative;}
+.up1{font-size:24px; margin:10px 0px 0px 118px; color:#FFF;}
+.up2{font-size:33px; color:#CCC; margin: 20px 0px 0px 118px;}
+.up3{font-size:36px; color:white; margin: 0px 0px 0px 118;}
+
+.medium{ width:1200px; height:500px; margin: 0px 0px 0px 0px;}
+.medium1{background-color:#9FC; width:350px; height:300px; margin: 0px 0px 0px 0px; float:left; position:relative;}
+.m1{background-color:#0C9; width:300px; height:100px; margin: 0px 0px 0px 0px; float:left; position:relative;}
+.lower{width: 1200px; height:800px; border:solid; float:left; position:relative; background-color:#0FF;}

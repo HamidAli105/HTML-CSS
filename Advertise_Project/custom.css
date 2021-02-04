@@ -1,0 +1,292 @@
+/*custom css*/
+.main{
+	  width:100%; 
+      height:1450px; 
+	  border:solid;
+	  }
+/*start_upper*/
+
+.upper{
+	   width:1327px;
+       height:313px;
+       border:groove;
+       margin:0px 0px 0px 0px;
+	   }
+.text-center{
+	         text-align: center;
+             font-weight: bold;
+            }
+.addres{
+	  margin:0px 0px 0px 330px;
+      border:dotted; 
+      width:50%; 
+      height:50px;
+	  text-align:center;
+      border-radius: 30px;
+	  padding:10px 0px 0px 0px;
+       }
+ .date{width:90%;
+       height:70px; 
+       margin:10px 0px 0px 325px;
+	   border-radius: 20px;
+	   border:medium;
+	   }
+.datewrione{
+	        font-size:30px;
+            margin:10px 0px 0px 170px;
+            color:blue;
+			}	   
+.month{
+	   width:20%;
+       height:70px;
+	   border-radius: 20px;
+	   float:left;
+	   position:relative;
+	   border:solid;
+	   }
+.datewritwo{
+	        font-size:30px;
+            margin:10px 0px 0px 135px;
+            color:blue;
+			}	   
+.day{  
+     width:15%;
+     height:70px;
+	 border-radius: 20px;
+	 float:left;
+	 position:relative;
+	 border:solid;
+	 margin-left:5px;
+	 }
+	
+.datewrithree{
+	        font-size:30px;
+            margin:10px 0px 0px 145px;
+            color:blue;
+			}	 
+.time{
+	  width:20%;
+      height:70px;
+      border-radius: 20px;
+	  float:left;
+	  position:relative;
+	  margin-left:5px;
+	  border:solid;
+	  }	 
+/*end_upper*/
+  	   	   
+ /*start_up*/
+ 
+.up{
+	width:100%;
+	height:270px;
+	margin:12px 0px 0px 0px;
+	float:left;
+	position:relative;
+    }
+.upleft{
+	    width: 32%;
+	    height: 250px;
+	    margin: 0px 0px 0px 50px;
+	    border: solid;
+	    border-radius: 100px;
+	    float: left;
+	    postion: relative;
+		}	
+.sadrat{
+	    text-align:center;
+        margin:15px 0px 0px 0px;
+		font-size:36px;
+		}
+.upright{
+	     width: 32%;
+	     height: 250px;
+	     margin: 0px 0px 0px 50px;
+	     border: solid;
+	     border-radius: 100px;
+	     float: left;
+	     postion: relative;	
+         }
+.nagrani{
+	     font-size:36px;
+	     margin:15px 0px 0px 0px;
+	     text-align:center;
+         }
+.jnab{
+	     font-size:26px;
+	     margin:15px 0px 0px 295px;
+	     
+         }	
+.qariname{
+	     font-size:30px;
+	     margin:15px 0px 0px 5px;
+	     
+         }		 	 
+.upcenter{
+	      width: 200px;
+	      height: 200px;
+	      margin: 0px 0px 0px 50px;
+	      border: solid;
+	      border-radius: 100px;
+	      float: left;
+	      postion: relative;	
+          }
+.sactry{
+	    font-size:24px;
+        margin:25px 0px 0px 0px;
+		color:black;
+		text-align:center;
+		}
+/*end_up*/	
+
+/*start_medium*/   		 
+.medium{
+	    width:90%; 
+        height:675px;
+	    font-size:16px;
+	    margin:0px 0px 0px 50px;
+		float:left;
+	    position:relative;
+       }			
+.tilwat{
+	    width:30%; 
+        height:330px;
+		font-size:16px;
+		margin:0px 0px 0px 30px;
+	    float:left;
+		position:relative;
+		border:groove;
+		border-bottom-left-radius:30px;
+		border-top-right-radius:30px;
+		}
+.tilwatwri{
+	       font-size:36px;
+	       margin:15px 0px 0px 0px;
+	       text-align:center;
+         }		 
+.najam{
+	   width:30%; 
+       height:330px;
+	   font-size:16px;
+	   margin:0px 0px 0px 20px;
+	   float:left;
+	   position:relative;
+	   border:groove;
+	   border-bottom-left-radius:30px;
+	   border-top-right-radius:30px;
+	   }	
+.najamwri{
+	      font-size:36px;
+	      margin:15px 0px 0px 0px;
+	      text-align:center;
+         }	   		 
+.azan{
+	  width:30%; 
+      height:330px;
+	  font-size:16px;
+	  margin:8px 0px 0px 30px;
+	  float:left;
+	  position:relative;
+	  border:groove;
+	   border-bottom-right-radius:30px;
+	   border-top-left-radius:30px;
+	  }
+.azanwri{
+	     font-size:36px;
+	     margin:15px 0px 0px 0px;
+	     text-align:center;
+         }	  		 
+.naat{
+	  width:30%; 
+      height:330px;
+	  font-size:16px;
+	  margin:0px 0px 0px 30px;
+	  float:left;
+      position:relative;
+	  border:groove;
+	  border-bottom-left-radius:30px;
+	  border-top-right-radius:30px;
+	  }	
+.naatwri{
+	     font-size:36px;
+	     margin:15px 0px 0px 0px;
+	     text-align:center;
+         }	  	 
+.taqer{width:30%; 
+       height:330px;
+	   font-size:16px;
+	   margin:8px 0px 0px 20px;
+	   float:left;
+	   position:relative;
+	   border:groove;
+	   border-bottom-right-radius:30px;
+	   border-top-left-radius:30px;
+	   }	
+.taqerwri{
+	      font-size:36px;
+	      margin:15px 0px 0px 0px;
+	      text-align:center;
+         }	   	   		 
+.duaen{
+	   width:30%; 
+       height:330px;
+	   font-size:16px;
+	   margin:8px 0px 0px 30px;
+	   float:left;
+	   position:relative;
+	   border:groove;
+	   border-bottom-right-radius:30px;
+	   border-top-left-radius:30px;
+	   }
+.duaenwri{
+	      font-size:36px;
+	      margin:15px 0px 0px 0px;
+	      text-align:center;
+         }	   	
+/*end_medium */	
+
+/*start_bottom*/   		 
+.bottom{
+	    width:85%; 
+        height:80px;
+	    font-size:16px;
+	    margin:10px 0px 0px 165px;
+	    float:left;
+	    position:relative;
+        }		 	 
+.bmleft{
+	    width:40%; 
+        height:80px;
+	    font-size:16px;
+	    margin:0px 0px 0px 0px;
+	    float:left;
+		position:relative;
+		border: ridge;
+        }	
+.bmleftwri{
+	      font-size:36px;
+	      margin:0px 0px 0px 30px;
+	          
+          }
+.contactwri{
+	      font-size:36px;
+	      margin:0px 0px 0px 200px;	     
+          }		  				 
+.bmright{
+	     width:40%; 
+         height:80px;
+		 font-size:16px;
+		 margin:0px 0px 0px 0px;
+		 float:left;
+		 position:relative;
+		 border:ridge;
+		 margin-left:5px;
+		 }	
+.bmrightwri{
+	        font-size:30px;
+	        margin:15px 0px 0px 0px;
+	        text-align:center;
+            }		 
+/*end_bottom */
+
+

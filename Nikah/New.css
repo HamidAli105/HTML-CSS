@@ -1,0 +1,42 @@
+.main{width:100%; height:auto; background-color: #99F;}
+
+.img{width: 13%;
+
+height: 140px;
+
+background-color: blue; border-radius:15%; opacity: 2;
+
+margin: -144px 0px 0px 0px;
+text-align:center; color:white; padding: 50px 0px 0px 0px;
+
+float: left;
+
+position: relative;}
+
+.up{width:100%; height:50px; float:left; position:relative;}
+.upleft{width:50%; height:50px; float:left; position:relative;}
+.upright{width:50%; height:50px; float:left; position:relative;}
+
+.bride{width:50%; height:auto; margin: 0px 0px 0px 0px; float:left; position:relative;}
+.bridewri{font-size:18px; margin: -6px 0px 2px 90px; float:left; position:relative;}
+
+.groom{width:50%; height:auto; margin: 0px 0px 0px 0px; float:left; position:relative;}
+.groomwri{font-size:18px; margin: -6px 0px 2px 90px; float:left; position:relative;}
+
+.submit{margin: 10px 0px 0px 0px;
+
+background-color: green;
+
+color: white;
+
+font-size: 22px;
+
+float: left;
+
+position: relative;
+
+width: 100px;
+
+height: 50px;
+
+border-radius: 25%;}

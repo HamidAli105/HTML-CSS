@@ -1,0 +1,100 @@
+/*main div*/
+.main{width:100%; height:650px; background-color:#EAEDF4; float:left; position:relative;}
+.upper{width:100%; height:80px; background-color: #CCC; float:left; position:relative;}
+.name{width:50%; height:80px; float:left; position:relative;}
+.fcbk{font-size: 36px;
+    text-align: center;
+    color: white;
+    margin: 15px 0px 0px -60px; font-family: Arial, Helvetica, sans-serif; 
+}
+a:hover{color:blue; background-color:white;}
+
+.menu{width:50%; height:80px;float:left; position:relative; margin: 0px 0px 0px -40px;}
+.eml{font-size:14px; margin: 0px 0px 0px 5px; float:left;position:relative;}
+.form{font-size: 13px;
+    margin: 0px 0px 0px 0px; float:left; position:relative;
+    
+    }
+.menuright{margin: 0px 0px 0px 100px;}
+.log{width: 38px;
+    height: 18px;
+    float: left;
+    position: relative;
+    padding: 0px 0px 0px 0px;
+    margin: 21px 0px 0px 5px;}
+.login{background-color:#36F; color:white; width:55px; height:23px; font-size:14px; float:left; position:relative;}
+.forgtn{font-size: 14px;
+    color: #999;
+    text-align: center;
+    margin: 44px 0px 0px -187px;
+    float: left;
+    position: relative;}
+
+
+.medium{width:100%; height:500px;float:left; position:relative;}
+
+.mediumleft{width:50%; height:500px;float:left; position:relative;}
+.mediumwri{font-size:24px; color: #666; margin: 50px 0px 0px 150px; font-family:"MS Serif", "New York", serif;
+font-weight: 400;}
+.img{margin: 20px 0px 0px 150px; background-image:url(img/1.PNG); background-repeat:no-repeat; width:60%; height:50%;
+ float:left; position:relative;}
+
+.mediumright{width:35%; height:500px;float:left; position:relative; margin: 0px 0px 0px 67px;}
+.account{font-size:36px; color:black; margin: 40px 0px 0px 0px;}
+.free{font-size:20px; color: #666; margin: 0px 0px 0px 0px;}
+.firstname{font-size: 19px;
+    width: 99%;
+    height: 34px;
+    border-radius: 6px; float:left; position:relative;}
+.email{font-size:17px; width:83%; height:36px; float:left; position:relative; border-radius:7px; margin: 6px 0px 0px 0px;}
+.birthday{font-size: 23px;
+    color: darkslategray;
+    float: left;
+    position: relative;
+    margin: 5px 0px 0px 0px;}	
+
+.yearmrgn{margin: 43px 0px 0px -90px; float:left; position:relative;}
+.year{margin:0px 0px 0px 2px; float:left; position:relative;}
+.slctlist{font-size: 18px;
+    width: 78px;
+    height: 27px;
+    color: darkslategray;
+    float: left;
+    position: relative;
+    }
+.provideborn{font-size:14px; color:#666; margin: 38px 0px 0px 8px; float:left; position:relative;}
+.margnfrm{margin: 11px 0px 0px 0px;
+    float: left;
+    position: relative;}
+	
+.radiomrgn{width:40%; height:40px; margin: 0px 0px 0px 3px; float:left; position:relative;}
+
+.datapolicy{width:color: #666; margin: 5px 0px 0px 7px; float:left; position:relative;}
+.signup{font-size: 20px;
+    color: white;
+    background-color: green;
+    width: 180%;
+    height: 40px;
+    padding: 0px 0px 0px 0px;
+    border-radius: 10px;
+    float: left;
+    position: relative;}
+.signmrgn{margin: 5px 0px 0px 150px; float:left; position:relative;}	
+
+.celebirty{font-size:18px; color:#C69; margin:10px 0px 0px 15px; float:left; position:relative;}.f {
+	text-align: left;
+}
+.color{color:white; font-size:14px;}
+
+
+
+.newmargin{margin:0px 0px 0px 0px;}
+
+.image{width:200px; height:40px; margin:20px 0px 0px -190px; float:left; position:relative;}
+
+
+.fname{margin:0px 0px 0px 0px; color:blue; width:197px; height:50px; float:left; position:relative;}
+
+.borderstyle{border-radius: 6%; border-bottom-color:#600; border-width: thick;}
+.main1{width:100%; height:650px; background-color: #CFF; float left; position:relative;}
+.datemargn{width:50px; height:20px; margin: 0px 0px 0px 0px; float:left; position:relative;}

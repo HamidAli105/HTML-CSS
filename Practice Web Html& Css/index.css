@@ -1,0 +1,42 @@
+.main{width:100%; height:auto;  opacity:1;}
+.one{color:white; background-color:green; font-size:20px; float:left; position:relative; border:solid;
+opacity:0.7; border-radius:12px; line-height:1.5em; font-weight: 900; border-color:black;}
+a:hover{color:white; background-color:green; font-size:40px;}
+a:active{color:yellow; background-color:#F6C; font-size:30px;}
+.two{color:red; background-color:green; font:Verdana, Geneva, sans-serif; font-size:18px;}
+.two a:hover{color:white; background-color:black}
+.three a:link{color:white; background-color:green; width:20%; height:40px;}
+.four a:visited{color:red; background-color:black}
+.five a:active{color:white; background-color:black}
+.static {
+  position: static;
+  border: 3px solid #73AD21;
+  border-width:80px;
+}
+.relative{
+  position: relative;
+  top: 3px;
+  border: 3px solid green;
+  border-width:50px;
+}
+.fixed {
+  position: fixed;
+  width: 300px;
+  border: 3px solid #00F;
+}
+.absolute {
+  position: absolute;
+  top: 200px;
+  right: 0;
+  width: 200px;
+  height: 100px;
+  border: 3px solid #096;
+}
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 10px;
+  padding: 5px;
+  background-color: #cae8ca;
+  border: 2px solid #4CAF50;
+}
