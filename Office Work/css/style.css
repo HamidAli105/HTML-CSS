@@ -1,0 +1,12 @@
+.bg-img {
+  background-image: url('../img/rsz_doug_thompson.jpg');
+  transition: transform .2s;
+  width: 250px;
+  height: 250px;
+
+}
+.bg-img:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
