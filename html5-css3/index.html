@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Grill House </title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+    <!--************
+        Header Start
+        ************-->
+        <nav>
+            <div class="navbar">
+                <a href="#"  class="navbar-brand">Grill House</a>
+                <button class="toggle-collapse"> <i class="fa fa-align-center"></i> </button>
+                 <div class="navbar-collapse">
+                     <ul class="navbar-nav">
+                         <li class="nav-item">
+                          <a href="#">Home</a>
+                         </li>
+                         <li class="nav-item">
+                          <a href="#">Menu</a>
+                         </li>
+                         <li class="nav-item">
+                          <a href="#">Specials</a>
+                         </li>
+                         <li class="nav-item">
+                          <a href="#">About</a>
+                         </li>
+                         <li class="nav-item">
+                          <a href="#">Home</a>
+                         </li>
+                     </ul>
+                 </div>
+            </div>
+        </nav>
+
+    <!--**********
+        Header End
+        **********-->
+
+
+    
+    <!-- Slider -->
+    <div class="slideshow-container"
+        style="background-image: url('img/Background.jpg'); background-repeat: no-repeat; background-size: cover;">
+
+        <div class="mySlides fade">
+
+            <img src="img/slidertwo.png" style="width:100%">
+            <div class="text">FOOD - MUSIC - FRIENDS - FUN</div>
+        </div>
+
+    </div>
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+
+    <!-- Menu Section-->
+    <div class="sec-spacer"></div>
+    <section class="sec-bgimg">
+        <h2>Menu</h2>
+        <div class="menuimg"></div>
+        <div class="box">
+            <div class="boxtop">
+                <p>CHICKEN</p>
+            </div>
+            <div class="txt">
+                <p>Lorem ipsum <br> Dolor sit amet <br> Consectetur</p>
+            </div>
+            <div class="nbr">
+                <span>6,00 <br> 11,00 <br> 8,00</span>
+            </div>
+        </div>
+        <div class="box1">
+            <div class="boxtop1">
+                <p>CHICKEN</p>
+            </div>
+            <div class="txt">
+                <p>Lorem ipsum <br> Dolor sit amet <br> Consectetur</p>
+            </div>
+            <div class="nbr">
+                <span>6,00 <br> 11,00 <br> 8,00</span>
+            </div>
+        </div>
+        <div class="box2">
+            <div class="boxtop2">
+                <p>CHICKEN</p>
+            </div>
+            <div class="txt">
+                <p>Lorem ipsum <br> Dolor sit amet <br> Consectetur</p>
+            </div>
+            <div class="nbr">
+                <span>6,00 <br> 11,00 <br> 8,00</span>
+            </div>
+        </div>
+        <div class="box">
+            <div class="boxtop">
+                <p>CHICKEN</p>
+            </div>
+            <div class="txt">
+                <p>Lorem ipsum <br> Dolor sit amet <br> Consectetur</p>
+            </div>
+            <div class="nbr">
+                <span>6,00 <br> 11,00 <br> 8,00</span>
+            </div>
+        </div>
+        <div class="box1">
+            <div class="boxtop1">
+                <p>CHICKEN</p>
+            </div>
+            <div class="txt">
+                <p>Lorem ipsum <br> Dolor sit amet <br> Consectetur</p>
+            </div>
+            <div class="nbr">
+                <span>6,00 <br> 11,00 <br> 8,00</span>
+            </div>
+        </div>
+        <div class="box2">
+            <div class="boxtop2">
+                <p>CHICKEN</p>
+            </div>
+            <div class="txt">
+                <p>Lorem ipsum <br> Dolor sit amet <br> Consectetur</p>
+            </div>
+            <div class="nbr">
+                <span>6,00 <br> 11,00 <br> 8,00</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Discount Section -->
+    <div class="sec-spacer"></div>
+    <section>
+
+    </section>
+</body>
+
+</html>
+<script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+        showSlides(slideIndex += n);
+    }
+
+    function currentSlide(n) {
+        showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        if (n > slides.length) { slideIndex = 1 }
+        if (n < 1) { slideIndex = slides.length }
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+    }
+</script>
