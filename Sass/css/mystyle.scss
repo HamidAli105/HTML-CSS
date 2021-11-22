@@ -1,0 +1,23 @@
+// Create global variables
+$myColor: red;
+$bgcolor: lightblue;
+$textcolor: darkblue;
+$fontsize: 18px;
+
+/* Use the variables */
+body {
+  background: $myColor;
+  color: $textcolor;
+  font-size: $fontsize;
+  background-color: red;
+}
+
+h1 {
+  $myColor: green;
+  color: $myColor;
+}
+
+p {
+  color: $textcolor ;
+}
+

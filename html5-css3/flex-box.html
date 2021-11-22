@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Flex Box</title>
+
+	<style type="text/css">
+		*{margin: 0; padding: 0; box-sizing: border-box;}
+		/*section{
+			     width: 100%;
+			     background: cyan;
+			     display: flex;
+			     justify-content: space-around;
+			     align-items: center;
+		}*/
+		section div{
+			/*width: 30%;*/
+			flex-basis: 30%;
+			padding: 20px;
+			border: 1px solid black;
+		}
+		.flexone{ 
+			/*flex: 1; */
+			background-color: red;
+	    }
+		.flextwo{ 
+			/*flex: 1; */
+			background-color: green;
+		}
+		.flexthree{ 
+			/*flex: 1; */
+			background-color: blue;
+		}
+		.flex-container{
+			display: flex;
+			flex-wrap: wrap;
+			background-color: dodgerblue;
+		}
+		.flex-container > div{
+			background-color: #f1f1f1;
+			width: 100px;
+			margin: 10px;
+			text-align: center;
+			line-height: 75px;
+			font-size: 30px;
+		}
+       @media (min-width:  768px) {
+       	      section{
+			     display: flex;
+			     justify-content: space-around;
+		}
+       }
+
+
+	</style>
+</head>
+<body>
+	<section>
+		<div class="flexone">
+			1 OnE Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam quas, ab eaque expedita, minus animi, suscipit rem modi quo nam delectus saepe et dolores impedit incidunt quaerat. Iusto, eveniet, maiores!
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam quas, ab eaque expedita, minus animi, suscipit rem modi quo nam delectus saepe et dolores impedit incidunt quaerat. Iusto, eveniet, maiores!
+		</div>
+		<div class="flextwo">
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam quas, ab eaque expedita, minus animi, suscipit rem modi quo nam delectus saepe et dolores impedit incidunt quaerat. Iusto, 
+		</div>
+		<div class="flexthree">
+			 3 Three Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam quas, ab eaque expedita, minus animi, suscipit rem modi quo nam delectus saepe et dolores impedit incidunt quaerat. Iusto, eveniet, maiores!
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam quas, ab eaque expedita, minus animi, suscipit rem modi quo nam delectus saepe et dolores impedit incidunt quaerat. Iusto, eveniet, maiores!
+		</div>
+	</section>
+	<div class="flex-container">
+       <div>1</div>
+        <div>2</div>
+         <div>3</div>
+          <div>4</div>
+           <div>5</div>
+            <div>6</div>
+             <div>7</div>
+              <div>8</div>
+               <div>9</div>
+	</div>
+</body>
+</html>
