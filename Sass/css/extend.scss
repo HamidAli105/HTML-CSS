@@ -1,0 +1,50 @@
+
+// First Method Extend
+// #first{
+//     background: darkslateblue;
+//     width: 250px;
+//     height: 250px;
+//     font-family: Arial, Helvetica, sans-serif;
+//     padding: 10px 20px;
+  
+// }
+// #second{
+//     background: darkseagreen;
+//     @extend #first;
+//     width: 250px;
+//     height: 250px;
+//     font-family: Arial, Helvetica, sans-serif;
+//     padding: 10px 20px;
+// }
+// #third{
+//     background: hotpink;
+//     @extend #first;
+//     width: 250px;
+//     height: 250px;
+//     font-family: Arial, Helvetica, sans-serif;
+//     padding: 10px 20px;
+// }
+// First Method Extend
+%first{
+    background: darkslateblue;
+    width: 250px;
+    height: 250px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 20px;
+}
+#second{
+    background: darkseagreen;
+    @extend %first;
+    // width: 250px;
+    // height: 250px;
+    // font-family: Arial, Helvetica, sans-serif;
+    // padding: 10px 20px;
+}
+#third{
+    background: hotpink;
+    @extend %first;
+    // width: 250px;
+    // height: 250px;
+    // font-family: Arial, Helvetica, sans-serif;
+    // padding: 10px 20px;
+}

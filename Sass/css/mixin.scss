@@ -1,0 +1,38 @@
+@import "variables";
+
+@mixin bd-radius($value) {
+ -webkit-border-radius: 10px;
+ -moz-border-radius: 10px;
+ border-radius: 10px;
+ padding: 10px;
+ border-radius: $value;
+}
+
+@mixin box-shadow($top, $left, $blur, $color) {
+    -webkit-box-shadow: $top $left $blur $color;
+    -moz-box-shadow: $top $left $blur $color;
+     box-shadow: $top $left $blur $color;
+}
+ 
+
+#first{
+    background: darkslateblue;
+    width: 250px;
+    height: 250px;
+    @include bd-radius(50px);
+    @include box-shadow(3px, 3px, 0.1px, $bgcolor);
+}
+#second{
+    background: darkseagreen;
+    width: 250px;
+    height: 250px;
+    @include bd-radius(40px);
+    @include box-shadow(-3px, -3px, 0.5px, $borderColor);
+}
+#third{
+    background: hotpink;
+    width: 250px;
+    height: 250px;
+    @include bd-radius(30px);
+    @include box-shadow(9px, 9px, 0.9px, $borderColor);
+}

@@ -1,0 +1,15 @@
+@mixin margin($position, $unit) {
+    margin-#{$position} : $unit + px;
+}
+
+.test{
+    @include margin(left, 10);
+}
+
+@mixin set-icon($name) {
+ .icon-#{$name}{
+     background-image: url("../img/icons/#{$name} .png"); 
+ }
+}
+
+@include set-icon(duck);
