@@ -1,0 +1,28 @@
+#fourth, #five, #six, #seven, #eight, #nine, #ten {
+  width: 400px;
+  height: 200px;
+  margin-bottom: 20px;
+  border: 1px solid #000; }
+
+#fourth {
+  background: green; }
+
+#five {
+  background-color: black; }
+
+#six {
+  background-color: #b3ffb3; }
+
+#seven {
+  background-color: #00802b; }
+
+#eight {
+  background-color: #067a06; }
+
+#nine {
+  background-color: #804000; }
+
+#ten {
+  background-color: rgba(0, 128, 0, 0.9); }
+
+/*# sourceMappingURL=inbuilt_functions_colors.css.map */

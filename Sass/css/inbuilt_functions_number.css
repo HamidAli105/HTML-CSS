@@ -1,0 +1,34 @@
+.test {
+  margin: abc(-10px); }
+
+.testCeil {
+  margin: 5; }
+
+.testFloor {
+  margin: 4; }
+
+.testRound {
+  margin: 5; }
+
+.testMax {
+  margin: 50px; }
+
+.testMin {
+  margin: 10px; }
+
+.testPercentage {
+  margin: 400%; }
+
+.testComparable {
+  margin: true; }
+
+.testRandome {
+  margin: 26; }
+
+.testUnit {
+  margin: "em*px"; }
+
+.testUnitless {
+  margin: false; }
+
+/*# sourceMappingURL=inbuilt_functions.css.map */

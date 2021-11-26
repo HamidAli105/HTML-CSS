@@ -1,0 +1,36 @@
+$base-color:green;
+
+#fourth, #five, #six, #seven, #eight, #nine,#ten
+{
+    width: 400px;
+    height: 200px;
+    margin-bottom: 20px;
+    border: 1px solid #000;
+}
+#fourth{
+    background: $base-color;
+
+}
+#five{
+ background-color: darken($base-color, 30);
+}
+#six{
+    background-color: lighten($base-color, 60);
+   }
+
+#seven{
+    background-color: adjust-hue($base-color, 20);
+   }
+
+// #eight{
+//     background-color: saturate($base-color, 10);
+//    }
+   #eight{
+    background-color: desaturate($base-color, 10);
+   }
+   #nine{
+    background-color: mix($base-color,red, 50);
+   }
+   #ten{
+    background-color: transparentize($base-color, 0.1);
+   }

@@ -1,0 +1,31 @@
+.testQuote{
+    font-family: quote(Arial);
+}
+.testUnquote{
+    font-family: unquote("Arial");
+}
+.testToupercase{
+    font-family: to-upper-case("Arial");
+}
+.testTolowercase{
+    font-family: to-lower-case("Arial");
+}
+.testStrlength{
+    font-family: str-length("Arial");
+}
+.testStrindex{
+    font-family: str-index("A quick brown fox", "brown");
+}
+.testStrinsert{
+    font-family: str-insert("A quick brown fox", " over the lazy dog.", 18);
+}
+.testStrslice{
+    font-family: str-slice("Helvetica new ", 10);
+}
+.testStrslicetwo{
+    font-family: str-slice("Helvetica new ", 1,10);
+}
+.testUniqueid{
+    font-family: unique-id();
+}
+

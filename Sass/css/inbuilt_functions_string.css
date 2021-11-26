@@ -1,0 +1,31 @@
+.testQuote {
+  font-family: "Arial"; }
+
+.testUnquote {
+  font-family: Arial; }
+
+.testToupercase {
+  font-family: "ARIAL"; }
+
+.testTolowercase {
+  font-family: "arial"; }
+
+.testStrlength {
+  font-family: 5; }
+
+.testStrindex {
+  font-family: 9; }
+
+.testStrinsert {
+  font-family: "A quick brown fox over the lazy dog."; }
+
+.testStrslice {
+  font-family: " new "; }
+
+.testStrslicetwo {
+  font-family: "Helvetica "; }
+
+.testUniqueid {
+  font-family: u4mn5wkb7; }
+
+/*# sourceMappingURL=inbuilt_functions_string.css.map */

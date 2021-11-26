@@ -1,0 +1,36 @@
+$list : 10px, 20px, 30px;
+$list2 : 10px 20px 30px;
+
+.testLength{
+    padding: length($list);
+}
+.testNth{
+    padding: nth($list, 2);
+}
+.testSetnth{
+    padding: set-nth((Helvetica, Arial, Verdana), 1, Roboto);
+}
+.testJoin{
+    padding: join($list, $list2);
+}
+.testJoin{
+    padding: join((1 2 3), (4,5), comma);
+}
+.testAppend{
+    padding: append($list, 70px);
+}
+.testZip{
+    padding: zip($list, $list2);
+}
+.testZip{
+    padding: zip((red, green, blue), (10px, 20px, 30px));
+}
+.testIndex{
+    padding: index($list, 20px);
+}
+.testListseparator{
+    padding: list-separator($list2);
+}
+.testIsbracketed{
+    padding: is-bracketed($list2);
+}

@@ -1,0 +1,33 @@
+.test {
+    margin: abc(-10px);
+}
+.testCeil {
+    margin: ceil(4.5);
+}
+.testFloor {
+    margin: floor(4.1);
+}
+.testRound {
+    margin: round(4.7);
+}
+.testMax {
+    margin: max(47px, 30px, 50px);
+}
+.testMin {
+    margin: min(47px, 20px, 10px);
+}
+.testPercentage {
+    margin: percentage(40px / 10px);
+}
+.testComparable {
+    margin: comparable(40mm, 10cm);
+}
+.testRandome {
+    margin: random(40);
+}
+.testUnit {
+    margin: unit(40em * 20px);
+}
+.testUnitless {
+    margin: unitless(40em * 20px);
+}
