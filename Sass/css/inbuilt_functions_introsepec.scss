@@ -1,0 +1,30 @@
+$num : 10px;
+$char: "Arial";
+$list: 10px 20px 30px;
+$map: ("regular" : 400, "medium": 500);
+@mixin border-radius {
+    border-radius: 5px;
+}
+@function add($a,$b){
+    @return $a, $b;
+}
+// Variable Exist
+.test{
+    padding: variable-exists(map);
+}
+// Global Variable Exist
+.test{
+    padding: global-variable-exists(map);
+}
+// Mixin Exist
+.test{
+    padding: mixin-exists(border-radius);
+}
+// Function exists
+.test{
+    padding: function-exists(add);
+}
+// Type of 
+.test{
+    padding: type-of($num);
+}

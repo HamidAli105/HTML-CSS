@@ -1,0 +1,19 @@
+.test {
+  font-weight: 500; }
+
+.testkey {
+  font-weight: "regular", "medium", "bold"; }
+
+.testval {
+  font-weight: 400, 500, 700; }
+
+.testmerg {
+  font-weight: "regular", "medium", "bold", "lightest", "light"; }
+
+.testmr {
+  font-weight: "medium", "bold"; }
+
+.testmkey {
+  font-weight: true; }
+
+/*# sourceMappingURL=inbuilt_functions_map.css.map */

@@ -1,0 +1,21 @@
+// Selector Nest
+$selecter : selector-nest(".abc", "&:hover");
+$selecter : selector-nest(".abc",".xyz" "p");
+// Selector Append
+$selecter : selector-append("a", ".active");
+$selecter : selector-append(".abc", "_copy, _image");
+// Selector Replace
+$selecter : selector-replace("a.abc", ".abc", ".link");
+// isSuper Selector
+$selecter : is-superselector("a", "a.active");
+// Simple Selector
+$selecter: simple-selectors("a.abc");
+// Uniform Selector
+$selecter : selector-unify("a", ".active");
+// Selecter Extend
+$selecter : selector-extend("a.disable", "a", ".link");
+
+
+#{$selecter}{
+    width: 10px;
+}

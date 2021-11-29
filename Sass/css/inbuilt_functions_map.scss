@@ -1,0 +1,30 @@
+$font-weight: ("regular": 400, "medium": 500, "bold" : 700);
+$light-weights: ("lightest" : 100, "light" : 300 );
+// Merge
+$merge : map-merge($font-weight, $light-weights);
+// Remove
+$mr : map-remove($font-weight, "regular");
+// Map Get
+.test{
+    font-weight: map-get($font-weight, "medium");
+}
+// Map keys
+.testkey{
+    font-weight: map-keys($font-weight);
+}
+// Map Values
+.testval{
+    font-weight: map-values($font-weight);
+}
+// Map Merge
+.testmerg{
+    font-weight: map-keys($merge);
+}
+// Map Remove
+.testmr{
+    font-weight: map-keys($mr);
+}
+// Map has key
+.testmkey{
+    font-weight: map-has-key($font-weight, "bold");
+}
