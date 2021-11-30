@@ -1,0 +1,83 @@
+
+body{
+    background-color: gray;
+}
+// Simple Media Query
+// @media screen and  (max-width: 1300px){
+//     body{
+//         background-color: red;
+//     }
+// }
+
+// @media screen and  (max-width: 1000px){
+//     body{
+//         background-color: red;
+//     }
+// }
+// @media screen and  (max-width: 700px){
+//     body{
+//         background-color: red;
+//     }
+// }
+
+// Mixin Media Query
+@mixin media ($width) {
+    @media screen and (max-width : $width) {
+        @content;
+    }
+}
+
+
+@include media(1300px){
+    body{
+        background-color: red ;
+    }
+}
+@include media(1000px){
+    body{
+        background-color: red ;
+    }
+}
+@include media(700px){
+    body{
+        background-color: red ;
+    }
+}
+
+@mixin bd-radius($value) {
+    -webkit-border-radius: $value;
+    -moz-border-radius: $value;
+     border-radius: $value;
+     @content;
+}
+
+@mixin test {
+    #menu{
+        @content;
+    }
+}
+
+@mixin  hover {
+    &:hover{
+        @content;
+    }
+    
+}
+
+.test{
+    @include bd-radius(5px) {
+        border-style: dashed;
+    }
+}
+@include test{
+    .block{
+        color: green;
+    }
+}
+
+.button{
+    border: 1px solid black;
+    @include hover{
+        border-width: 2px;
+    }
+}

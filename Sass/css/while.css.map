@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAGI,WAAc;EACV,YAAY,EAAE,IAAI;;AADtB,WAAc;EACV,YAAY,EAAE,IAAI;;AADtB,WAAc;EACV,YAAY,EAAE,IAAI;;AADtB,WAAc;EACV,YAAY,EAAE,IAAI;;AADtB,WAAc;EACV,YAAY,EAAE,IAAI",
+"sources": ["while.scss"],
+"names": [],
+"file": "while.css"
+}

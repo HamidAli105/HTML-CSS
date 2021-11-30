@@ -1,0 +1,13 @@
+@for $i from 1 through 4 {
+    .list-#{$i}{
+        width: 100px * $i;
+        background: darken(pink, $i * 10%);
+    }
+}
+
+@for $i from 1 to 4 {
+    .list-#{$i}{
+        width: 100px * $i;
+        background: darken(pink, $i * 10%);
+    }
+}

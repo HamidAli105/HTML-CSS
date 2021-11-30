@@ -1,0 +1,53 @@
+
+$test : 0;
+
+// Mixin if condition
+@mixin changeColor($value) {
+font-size: $value;
+@if $value > 0 and $value <= 20 {
+    color: green;
+} 
+@else if $value > 20 and $value <= 50 {
+    color: blue;
+} 
+    
+}
+
+@mixin box($value) {
+    @if $value == dark{
+        background-color: black;
+        color: #fff;
+    }
+    @else if $value == light{
+        background-color: lightgray;
+        color: #000;
+    }
+}
+.mybox{
+ @include box(dark);
+ padding: 20px;
+ margin: 100px;
+ width: 200px;
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+.test{
+     @include changeColor(18);
+}
+
+// simple if condition
+ p{
+     @if $test < 5 {
+    color: blue;
+ }
+ @else if $test > 5 and $test < 10 {
+     color: black;
+ }
+ @else{
+     color: red;
+ }
+ @if 1 + 1 ==2  {
+     font-size: 12px;
+ }
+}
+
