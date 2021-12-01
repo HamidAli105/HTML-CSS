@@ -4,6 +4,7 @@
 //       font-weight: $i;
 //   }
 // }
+
 // Multi Demsional list
 $list : ((normal, bold, 10px),(emphasis, italic, 15px));
 @each $name, $style, $size in $list {
