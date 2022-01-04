@@ -5,7 +5,7 @@ $map: ("regular" : 400, "medium": 500);
 @mixin border-radius {
     border-radius: 5px;
 }
-@function add($a,$b){
+@function add($a, $b){
     @return $a, $b;
 }
 // Variable Exist
