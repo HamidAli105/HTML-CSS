@@ -4,963 +4,379 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Furniture Shop</title>
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
-      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
-      crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Landing Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+   <style>
+    .top-sec{
+      background-image: url('img/Rectangle-3.png');
+      background-repeat: round;
+      height: 750px;
+    }
+    .banner-img{
+      background-image: url('img/Rectangle-1.png');
+      background-repeat: round;
+      height: 730px;
+    }
+    .bg-logo{
+      background-image: url('img/logo-bg.png');
+      background-repeat: round;
+      height: 200px;
   
+    }
+    .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0px 0px 0px;
+    }
+    .text-format{
+      color: #fff;
+    }
+    .text-format h3{
+      font-family: Hanuman;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 50px;
+      line-height: 30px;
+      text-align: center;
+    }
+    .text-format h5{
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 35px;
+      line-height: 8rem;
+      text-align: center;
+    }
+    .text-format p{
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 30px;
+      line-height: 0rem;
+      text-align: center;
+    }
+    .form-bg-img{
+      height: auto;
+      padding-top: 4rem;
+      padding-bottom: 4rem;
+      background-color: #FFFFFFE5;
+      border-radius: 1rem;
+      margin-top: 3rem;
+      padding-left: 3rem;
+      padding-right: 3rem;
+      box-shadow: 0px 40px 80px rgba(13, 14, 37, 0.1);
+    }
+    .index-no{
+      margin-right: 2rem;
+      font-weight: bold;
+    }
+    .input-name{
+      margin-left: 3rem;
+      width: 55rem;
+      border: solid 2px #5D5D5D;
+      border-radius: 10px;
+    }
+    .form-bg-img label {
+    display: inline-flex !important;
+    padding-top: 2rem;
+    color: #000;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 24px;
+}
+.form-format{
+  
+}
+.btn-mar{
+  margin-left: 3rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  background-color: #D8D8D8;
+  color: #5D5D5D;
+}
+.btn-mar.active{
+  
+  background-color: #3FC1E8;
+  color: #fff;
+}
+.btn-mar:visited{
+  
+  background-color: #3FC1E8;
+  color: #fff;
+}
+.btn-mar:hover{
+  
+  background-color: #3FC1E8;
+  color: #fff;
+}
+
+.txt-area{
+    margin-left: 3.8rem;
+    margin-top: 1rem;
+    border-radius: 10px;
+}
+.radio-heading{
+  font-size: 18px;
+    margin-left: 1rem;
+}
+.submit-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+.btn-sbmt.btn-lg {
+    padding: 1rem 6rem 1rem 6rem;
+    background-color: #4CAF50;
+    color: #fff;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 22px;
+    border: none;
+}
+    
+   </style>
 
   </head>
   <body>
-    <!--************ 
-        Start Navbar
-        *********** -->
-    <div class="container-fluid">
-      <div class="row bg-navbar-custom">
-        <div class="col-lg-4 col-md-4 col-sm-12">
-          <div class="nav-toggle">
-            <div class="nav-toggle-bar"></div>
-          </div>
+   <section class="top-sec">
+    <div class="container-fluid banner-img">
+    <div class="row">
+    <div class="col-lg-4 col-md-4 col-sm-12">
 
-          <nav id="nav" class="nav">
-            <ul>
-              <li><a href="furniture-shop.html">Furniture Shop</a></li>
-              <li><a href="product-page.html">Product Page</a></li>
-              <li><a href="Search-filter.html">Search & Filter</a></li>
-             
-            </ul>
-          </nav>
-        </div>
-        <div class="col-lg-4 col-md-4 col-sm-12 logo-format">
-          <a class="" href="https://musacomputerizedkanda.digital/madeles/">MADELES</a>
-        </div>
-        <div class="col-lg-4 col-md-4 col-sm-12">
-          <!-- <div class="input-group">
-            <div class="form-outline">
-              <input type="search" id="form1" class="form-control" />
-              
-            </div>
-            <button type="button" class="btn btn-primary">
-              <i class="fas fa-search"></i>
-            </button>
-          </div> -->
-         
-          <a  href="javascript:void(0)" class="header-searchbar">
-            <i class="fa fa-search" aria-hidden="true"></i>
-          </a>
-        </div>
+    </div>
+    <div class="col-lg-4 col-md-4 col-sm-12">
+      <div class="bg-logo">
+      <div class="logo">
+       <img src="img/tutorgigs_logo.png" width="300px" height="auto">
+      </div>
       </div>
     </div>
-    <!--**********
-            End Navbar
-            ********** -->
-
-    <!--**********
-        Start Hero
-        ********** -->
-
-    <div class="bg-hero-img"></div>
-
-    <!--********
-        End Hero
-        ******** -->
-
-    <!--***************
-        Start Icons Sec
-        *************** -->
-    <section class="bg-icon-clr">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-1 col-md-1 col-sm-12">
-            <span class="icon-box-vecter"> </span>
-          </div>
-          <div class="col-lg-3 col-md-3 col-sm-12">
-            <p class="text-heading">Livraison Gratuite</p>
-            <p class="text-descraption">
-              Pour les membres Amazon Prime ou pour les commandes de plus de 25€
-            </p>
-          </div>
-          <div class="col-lg-1 col-md-1 col-sm-12">
-            <span class="icon-box-support"> </span>
-          </div>
-          <div class="col-lg-3 col-md-3 col-sm-12">
-            <p class="text-heading">Support 24/7</p>
-            <p class="text-descraption">
-              Vous pouvez nous contacter sur notre site ou directement sur
-              Amazon
-            </p>
-          </div>
-          <div class="col-lg-1 col-md-1 col-sm-12">
-            <span class="icon-box-waranty"> </span>
-          </div>
-          <div class="col-lg-3 col-md-3 col-sm-12">
-            <p class="text-heading">Haute-Qualité</p>
-            <p class="text-descraption">
-              Nos produits sont fabriqués à partir des meilleurs matériaux sur
-              le marché
-            </p>
-          </div>
-        </div>
+    <div class="col-lg-4 col-md-4 col-sm-12">
       </div>
-    </section>
-    <!--*************
-        End Icons Sec
-        ************* -->
-
-    <!--********************
-        Start Nos Collection
-        ******************** -->
-         <section class="nos-collection">
-             <div class="container">
-             <div class="row">
-                 <div class="col-12">
-                  <h2 class="heading">Nos Collections</h2>
-                 </div>
-             </div>
-             <div class="row">
-                 <div class="col-lg-4 col-md-4 col-sm-12">
-                     <div class="colection-img-left"></div>
-                 </div>
-                 <div class="col-lg-4 col-md-4 col-sm-12">
-                    <div class="colection-img-center"></div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-12">
-                    <div class="colection-img-right"></div>
-                </div>
-             </div>
-            </div>
-         </section>
-    <!--******************
-        End Nos Collection
-        ****************** -->
-
-    <!--**********************
-        Start Meilleures Ventes
-        *********************** -->
-        <section class="meilleures-ventes">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                     <h2 class="heading">Meilleures Ventes</h2>
-                    </div>
-                </div>
-                <div class="tabs-format">
-                <ul class="tabs">
-                    <li class="active" rel="tab1">Fauteuils</li>
-                    <li rel="tab2">Lits</li>
-                    <li rel="tab3">Canapés</li>
-                    <li rel="tab4">Lampes</li>
-                  </ul>
-                </div>
-                  <div class="tab_container ">
-                    <div id="tab1" class="tab_content meilleures-ventes-tab-bg ">
-                      <div class="container text-center my-3">
-                        <div class="row mx-auto my-auto justify-content-center">
-                            <div id="recipeCarousel" class="carousel slide" data-bs-ride="carousel">
-                                <div class="carousel-inner visitez-boutique" role="listbox">
-                                    <div class="carousel-item active meilleures-ventes-tab-bg ">
-                                        <div class="col-md-3">
-                                            <div class="card product--tabs">
-                                              <div class="product-image-one">
-                                              </div>
-                                              <h4>Sakarias Armchair</h4>
-                                              <div class="product-icon-mar">
-                                              <i class="product-icon fas fa-star"></i>
-                                              <i class="product-icon fas fa-star"></i>
-                                              <i class="product-icon fas fa-star"></i>
-                                              <i class="product-icon fas fa-star"></i>
-                                              <i class="product-icon fas fa-star"></i>
-                                               </div>
-                                          
-                                                 <div class="cost">
-                                                <span class="product-price">€392</span>
-                                             <span class="shoping-bag"><i class="fas fa-shopping-bag"></i> </span> 
-                                              </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <div class="col-md-3">
-                                          <div class="card product--tabs">
-                                            <div class="product-image-two">
-                                              
-                                            </div>
-                                           
-                                            <h4>Baltsar Chair</h4>
-                                            <div class="product-icon-mar">
-                                            <i class="product-icon fas fa-star"></i>
-                                            <i class="product-icon fas fa-star"></i>
-                                            <i class="product-icon fas fa-star"></i>
-                                            <i class="product-icon fas fa-star"></i>
-                                            <i class="product-icon fas fa-star"></i>
-                                             </div>
-                                        
-                                               <div class="cost">
-                                              <span class="product-price">€412</span>
-                                           <span class="shoping-bag"><i class="fas fa-shopping-bag"></i> </span> 
-                                            </div>
-                                          </div>
-                                        </div>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <div class="col-md-3">
-                                          <div class="card product--tabs">
-                                            <div class="product-image-three ">
-                                            </div>
-                                           
-                                            <h4>Anjay Chair</h4>
-                                            <div class="product-icon-mar">
-                                            <i class="product-icon fas fa-star"></i>
-                                            <i class="product-icon fas fa-star"></i>
-                                            <i class="product-icon fas fa-star"></i>
-                                            <i class="product-icon fas fa-star"></i>
-                                            <i class="product-icon fas fa-star"></i>
-                                             </div>
-                                        
-                                               <div class="cost">
-                                              <span class="product-price">€284</span>
-                                           <span class="shoping-bag"><i class="fas fa-shopping-bag"></i> </span> 
-                                            </div>
-                                          </div>
-                                        </div>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <div class="col-md-3">
-                                          <div class="card product--tabs">
-                                            <div class="product-image-four">
-                                            </div>
-                                           
-                                            <h4>Nyantuy Chair</h4>
-                                            <div class="product-icon-mar">
-                                            <i class="product-icon fas fa-star"></i>
-                                            <i class="product-icon fas fa-star"></i>
-                                            <i class="product-icon fas fa-star"></i>
-                                            <i class="product-icon fas fa-star"></i>
-                                            <i class="product-icon fas fa-star"></i>
-                                             </div>
-                                        
-                                               <div class="cost">
-                                              <span class="product-price">€392</span>
-                                           <span class="shoping-bag"><i class="fas fa-shopping-bag"></i> </span> 
-                                            </div>
-                                          </div>
-                                        </div>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <div class="col-md-3">
-                                          <div class="card product--tabs">
-                                            <div class="product-image-one">
-                                              
-                                            </div>
-                                           
-                                            <h4>Sakarias Armchair</h4>
-                                            <div class="product-icon-mar">
-                                            <i class="product-icon fas fa-star"></i>
-                                            <i class="product-icon fas fa-star"></i>
-                                            <i class="product-icon fas fa-star"></i>
-                                            <i class="product-icon fas fa-star"></i>
-                                            <i class="product-icon fas fa-star"></i>
-                                             </div>
-                                        
-                                               <div class="cost">
-                                              <span class="product-price">€392</span>
-                                           <span class="shoping-bag"><i class="fas fa-shopping-bag"></i> </span> 
-                                            </div>
-                                          </div>
-                                        </div>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <div class="col-md-3">
-                                          <div class="card product--tabs">
-                                            <div class="product-image-two">
-                                              
-                                            </div>
-                                           
-                                            <h4>Baltsar Chair</h4>
-                                            <div class="product-icon-mar">
-                                            <i class="product-icon fas fa-star"></i>
-                                            <i class="product-icon fas fa-star"></i>
-                                            <i class="product-icon fas fa-star"></i>
-                                            <i class="product-icon fas fa-star"></i>
-                                            <i class="product-icon fas fa-star"></i>
-                                             </div>
-                                        
-                                               <div class="cost">
-                                              <span class="product-price">€412</span>
-                                           <span class="shoping-bag"><i class="fas fa-shopping-bag"></i> </span> 
-                                            </div>
-                                          </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <a class="carousel-control-prev bg-transparent w-aut" href="#recipeCarousel" role="button" data-bs-slide="prev">
-                                   <span class="slider-arrow-left"><span class="fa fa-arrow-left" aria-hidden="true" aria-hidden="true"></span></span> 
-                                </a>
-                                <a class="carousel-control-next bg-transparent w-aut" href="#recipeCarousel" role="button" data-bs-slide="next">
-                                  <span class="slider-arrow-right"> <span class="fa fa-arrow-right" aria-hidden="true"></span> </span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    </div>
-                    <!-- #tab1 -->
-                    <div id="tab2" class="tab_content meilleures-ventes-tab-bg ">
-                      <div class="container text-center my-3">
-                        <div class="row mx-auto my-auto justify-content-center">
-                            <div id="recipeCarousel" class="carousel slide" data-bs-ride="carousel">
-                                <div class="carousel-inner visitez-boutique" role="listbox">
-                                    <div class="carousel-item active meilleures-ventes-tab-bg ">
-                                        <div class="col-md-3">
-                                            <div class="card product--tabs">
-                                              <div class="product-image-one">
-                                              </div>
-                                              <h4>Sakarias Armchair</h4>
-                                              <div class="product-icon-mar">
-                                              <i class="product-icon fas fa-star"></i>
-                                              <i class="product-icon fas fa-star"></i>
-                                              <i class="product-icon fas fa-star"></i>
-                                              <i class="product-icon fas fa-star"></i>
-                                              <i class="product-icon fas fa-star"></i>
-                                               </div>
-                                          
-                                                 <div class="cost">
-                                                <span class="product-price">€392</span>
-                                             <span class="shoping-bag"><i class="fas fa-shopping-bag"></i> </span> 
-                                              </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <div class="col-md-3">
-                                          <div class="card product--tabs">
-                                            <div class="product-image-two">
-                                              
-                                            </div>
-                                           
-                                            <h4>Baltsar Chair</h4>
-                                            <div class="product-icon-mar">
-                                            <i class="product-icon fas fa-star"></i>
-                                            <i class="product-icon fas fa-star"></i>
-                                            <i class="product-icon fas fa-star"></i>
-                                            <i class="product-icon fas fa-star"></i>
-                                            <i class="product-icon fas fa-star"></i>
-                                             </div>
-                                        
-                                               <div class="cost">
-                                              <span class="product-price">€412</span>
-                                           <span class="shoping-bag"><i class="fas fa-shopping-bag"></i> </span> 
-                                            </div>
-                                          </div>
-                                        </div>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <div class="col-md-3">
-                                          <div class="card product--tabs">
-                                            <div class="product-image-three ">
-                                            </div>
-                                           
-                                            <h4>Anjay Chair</h4>
-                                            <div class="product-icon-mar">
-                                            <i class="product-icon fas fa-star"></i>
-                                            <i class="product-icon fas fa-star"></i>
-                                            <i class="product-icon fas fa-star"></i>
-                                            <i class="product-icon fas fa-star"></i>
-                                            <i class="product-icon fas fa-star"></i>
-                                             </div>
-                                        
-                                               <div class="cost">
-                                              <span class="product-price">€284</span>
-                                           <span class="shoping-bag"><i class="fas fa-shopping-bag"></i> </span> 
-                                            </div>
-                                          </div>
-                                        </div>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <div class="col-md-3">
-                                          <div class="card product--tabs">
-                                            <div class="product-image-four">
-                                            </div>
-                                           
-                                            <h4>Nyantuy Chair</h4>
-                                            <div class="product-icon-mar">
-                                            <i class="product-icon fas fa-star"></i>
-                                            <i class="product-icon fas fa-star"></i>
-                                            <i class="product-icon fas fa-star"></i>
-                                            <i class="product-icon fas fa-star"></i>
-                                            <i class="product-icon fas fa-star"></i>
-                                             </div>
-                                        
-                                               <div class="cost">
-                                              <span class="product-price">€392</span>
-                                           <span class="shoping-bag"><i class="fas fa-shopping-bag"></i> </span> 
-                                            </div>
-                                          </div>
-                                        </div>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <div class="col-md-3">
-                                          <div class="card product--tabs">
-                                            <div class="product-image-one">
-                                              
-                                            </div>
-                                           
-                                            <h4>Sakarias Armchair</h4>
-                                            <div class="product-icon-mar">
-                                            <i class="product-icon fas fa-star"></i>
-                                            <i class="product-icon fas fa-star"></i>
-                                            <i class="product-icon fas fa-star"></i>
-                                            <i class="product-icon fas fa-star"></i>
-                                            <i class="product-icon fas fa-star"></i>
-                                             </div>
-                                        
-                                               <div class="cost">
-                                              <span class="product-price">€392</span>
-                                           <span class="shoping-bag"><i class="fas fa-shopping-bag"></i> </span> 
-                                            </div>
-                                          </div>
-                                        </div>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <div class="col-md-3">
-                                          <div class="card product--tabs">
-                                            <div class="product-image-two">
-                                              
-                                            </div>
-                                           
-                                            <h4>Baltsar Chair</h4>
-                                            <div class="product-icon-mar">
-                                            <i class="product-icon fas fa-star"></i>
-                                            <i class="product-icon fas fa-star"></i>
-                                            <i class="product-icon fas fa-star"></i>
-                                            <i class="product-icon fas fa-star"></i>
-                                            <i class="product-icon fas fa-star"></i>
-                                             </div>
-                                        
-                                               <div class="cost">
-                                              <span class="product-price">€412</span>
-                                           <span class="shoping-bag"><i class="fas fa-shopping-bag"></i> </span> 
-                                            </div>
-                                          </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <a class="carousel-control-prev bg-transparent w-aut" href="#recipeCarousel" role="button" data-bs-slide="prev">
-                                   <span class="slider-arrow-left"><span class="fa fa-arrow-left" aria-hidden="true" aria-hidden="true"></span></span> 
-                                </a>
-                                <a class="carousel-control-next bg-transparent w-aut" href="#recipeCarousel" role="button" data-bs-slide="next">
-                                  <span class="slider-arrow-right"> <span class="fa fa-arrow-right" aria-hidden="true"></span> </span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    </div>
-                    <!-- #tab2 -->
-                    <div id="tab3" class="tab_content">
-                      <div class="container text-center my-3">
-                        <div class="row mx-auto my-auto justify-content-center">
-                            <div id="recipeCarousel" class="carousel slide" data-bs-ride="carousel">
-                                <div class="carousel-inner visitez-boutique" role="listbox">
-                                    <div class="carousel-item active meilleures-ventes-tab-bg ">
-                                        <div class="col-md-3">
-                                            <div class="card product--tabs">
-                                              <div class="product-image-one">
-                                              </div>
-                                              <h4>Sakarias Armchair</h4>
-                                              <div class="product-icon-mar">
-                                              <i class="product-icon fas fa-star"></i>
-                                              <i class="product-icon fas fa-star"></i>
-                                              <i class="product-icon fas fa-star"></i>
-                                              <i class="product-icon fas fa-star"></i>
-                                              <i class="product-icon fas fa-star"></i>
-                                               </div>
-                                          
-                                                 <div class="cost">
-                                                <span class="product-price">€392</span>
-                                             <span class="shoping-bag"><i class="fas fa-shopping-bag"></i> </span> 
-                                              </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <div class="col-md-3">
-                                          <div class="card product--tabs">
-                                            <div class="product-image-two">
-                                              
-                                            </div>
-                                           
-                                            <h4>Baltsar Chair</h4>
-                                            <div class="product-icon-mar">
-                                            <i class="product-icon fas fa-star"></i>
-                                            <i class="product-icon fas fa-star"></i>
-                                            <i class="product-icon fas fa-star"></i>
-                                            <i class="product-icon fas fa-star"></i>
-                                            <i class="product-icon fas fa-star"></i>
-                                             </div>
-                                        
-                                               <div class="cost">
-                                              <span class="product-price">€412</span>
-                                           <span class="shoping-bag"><i class="fas fa-shopping-bag"></i> </span> 
-                                            </div>
-                                          </div>
-                                        </div>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <div class="col-md-3">
-                                          <div class="card product--tabs">
-                                            <div class="product-image-three ">
-                                            </div>
-                                           
-                                            <h4>Anjay Chair</h4>
-                                            <div class="product-icon-mar">
-                                            <i class="product-icon fas fa-star"></i>
-                                            <i class="product-icon fas fa-star"></i>
-                                            <i class="product-icon fas fa-star"></i>
-                                            <i class="product-icon fas fa-star"></i>
-                                            <i class="product-icon fas fa-star"></i>
-                                             </div>
-                                        
-                                               <div class="cost">
-                                              <span class="product-price">€284</span>
-                                           <span class="shoping-bag"><i class="fas fa-shopping-bag"></i> </span> 
-                                            </div>
-                                          </div>
-                                        </div>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <div class="col-md-3">
-                                          <div class="card product--tabs">
-                                            <div class="product-image-four">
-                                            </div>
-                                           
-                                            <h4>Nyantuy Chair</h4>
-                                            <div class="product-icon-mar">
-                                            <i class="product-icon fas fa-star"></i>
-                                            <i class="product-icon fas fa-star"></i>
-                                            <i class="product-icon fas fa-star"></i>
-                                            <i class="product-icon fas fa-star"></i>
-                                            <i class="product-icon fas fa-star"></i>
-                                             </div>
-                                        
-                                               <div class="cost">
-                                              <span class="product-price">€392</span>
-                                           <span class="shoping-bag"><i class="fas fa-shopping-bag"></i> </span> 
-                                            </div>
-                                          </div>
-                                        </div>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <div class="col-md-3">
-                                          <div class="card product--tabs">
-                                            <div class="product-image-one">
-                                              
-                                            </div>
-                                           
-                                            <h4>Sakarias Armchair</h4>
-                                            <div class="product-icon-mar">
-                                            <i class="product-icon fas fa-star"></i>
-                                            <i class="product-icon fas fa-star"></i>
-                                            <i class="product-icon fas fa-star"></i>
-                                            <i class="product-icon fas fa-star"></i>
-                                            <i class="product-icon fas fa-star"></i>
-                                             </div>
-                                        
-                                               <div class="cost">
-                                              <span class="product-price">€392</span>
-                                           <span class="shoping-bag"><i class="fas fa-shopping-bag"></i> </span> 
-                                            </div>
-                                          </div>
-                                        </div>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <div class="col-md-3">
-                                          <div class="card product--tabs">
-                                            <div class="product-image-two">
-                                              
-                                            </div>
-                                           
-                                            <h4>Baltsar Chair</h4>
-                                            <div class="product-icon-mar">
-                                            <i class="product-icon fas fa-star"></i>
-                                            <i class="product-icon fas fa-star"></i>
-                                            <i class="product-icon fas fa-star"></i>
-                                            <i class="product-icon fas fa-star"></i>
-                                            <i class="product-icon fas fa-star"></i>
-                                             </div>
-                                        
-                                               <div class="cost">
-                                              <span class="product-price">€412</span>
-                                           <span class="shoping-bag"><i class="fas fa-shopping-bag"></i> </span> 
-                                            </div>
-                                          </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <a class="carousel-control-prev bg-transparent w-aut" href="#recipeCarousel" role="button" data-bs-slide="prev">
-                                   <span class="slider-arrow-left"><span class="fa fa-arrow-left" aria-hidden="true" aria-hidden="true"></span></span> 
-                                </a>
-                                <a class="carousel-control-next bg-transparent w-aut" href="#recipeCarousel" role="button" data-bs-slide="next">
-                                  <span class="slider-arrow-right"> <span class="fa fa-arrow-right" aria-hidden="true"></span> </span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    </div>
-                    <!-- #tab3 -->
-                    <div id="tab4" class="tab_content">
-                      <div class="container text-center my-3">
-                        <div class="row mx-auto my-auto justify-content-center">
-                            <div id="recipeCarousel" class="carousel slide" data-bs-ride="carousel">
-                                <div class="carousel-inner visitez-boutique" role="listbox">
-                                    <div class="carousel-item active meilleures-ventes-tab-bg ">
-                                        <div class="col-md-3">
-                                            <div class="card product--tabs">
-                                              <div class="product-image-one">
-                                              </div>
-                                              <h4>Sakarias Armchair</h4>
-                                              <div class="product-icon-mar">
-                                              <i class="product-icon fas fa-star"></i>
-                                              <i class="product-icon fas fa-star"></i>
-                                              <i class="product-icon fas fa-star"></i>
-                                              <i class="product-icon fas fa-star"></i>
-                                              <i class="product-icon fas fa-star"></i>
-                                               </div>
-                                          
-                                                 <div class="cost">
-                                                <span class="product-price">€392</span>
-                                             <span class="shoping-bag"><i class="fas fa-shopping-bag"></i> </span> 
-                                              </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <div class="col-md-3">
-                                          <div class="card product--tabs">
-                                            <div class="product-image-two">
-                                              
-                                            </div>
-                                           
-                                            <h4>Baltsar Chair</h4>
-                                            <div class="product-icon-mar">
-                                            <i class="product-icon fas fa-star"></i>
-                                            <i class="product-icon fas fa-star"></i>
-                                            <i class="product-icon fas fa-star"></i>
-                                            <i class="product-icon fas fa-star"></i>
-                                            <i class="product-icon fas fa-star"></i>
-                                             </div>
-                                        
-                                               <div class="cost">
-                                              <span class="product-price">€412</span>
-                                           <span class="shoping-bag"><i class="fas fa-shopping-bag"></i> </span> 
-                                            </div>
-                                          </div>
-                                        </div>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <div class="col-md-3">
-                                          <div class="card product--tabs">
-                                            <div class="product-image-three ">
-                                            </div>
-                                           
-                                            <h4>Anjay Chair</h4>
-                                            <div class="product-icon-mar">
-                                            <i class="product-icon fas fa-star"></i>
-                                            <i class="product-icon fas fa-star"></i>
-                                            <i class="product-icon fas fa-star"></i>
-                                            <i class="product-icon fas fa-star"></i>
-                                            <i class="product-icon fas fa-star"></i>
-                                             </div>
-                                        
-                                               <div class="cost">
-                                              <span class="product-price">€284</span>
-                                           <span class="shoping-bag"><i class="fas fa-shopping-bag"></i> </span> 
-                                            </div>
-                                          </div>
-                                        </div>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <div class="col-md-3">
-                                          <div class="card product--tabs">
-                                            <div class="product-image-four">
-                                            </div>
-                                           
-                                            <h4>Nyantuy Chair</h4>
-                                            <div class="product-icon-mar">
-                                            <i class="product-icon fas fa-star"></i>
-                                            <i class="product-icon fas fa-star"></i>
-                                            <i class="product-icon fas fa-star"></i>
-                                            <i class="product-icon fas fa-star"></i>
-                                            <i class="product-icon fas fa-star"></i>
-                                             </div>
-                                        
-                                               <div class="cost">
-                                              <span class="product-price">€392</span>
-                                           <span class="shoping-bag"><i class="fas fa-shopping-bag"></i> </span> 
-                                            </div>
-                                          </div>
-                                        </div>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <div class="col-md-3">
-                                          <div class="card product--tabs">
-                                            <div class="product-image-one">
-                                              
-                                            </div>
-                                           
-                                            <h4>Sakarias Armchair</h4>
-                                            <div class="product-icon-mar">
-                                            <i class="product-icon fas fa-star"></i>
-                                            <i class="product-icon fas fa-star"></i>
-                                            <i class="product-icon fas fa-star"></i>
-                                            <i class="product-icon fas fa-star"></i>
-                                            <i class="product-icon fas fa-star"></i>
-                                             </div>
-                                        
-                                               <div class="cost">
-                                              <span class="product-price">€392</span>
-                                           <span class="shoping-bag"><i class="fas fa-shopping-bag"></i> </span> 
-                                            </div>
-                                          </div>
-                                        </div>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <div class="col-md-3">
-                                          <div class="card product--tabs">
-                                            <div class="product-image-two">
-                                              
-                                            </div>
-                                           
-                                            <h4>Baltsar Chair</h4>
-                                            <div class="product-icon-mar">
-                                            <i class="product-icon fas fa-star"></i>
-                                            <i class="product-icon fas fa-star"></i>
-                                            <i class="product-icon fas fa-star"></i>
-                                            <i class="product-icon fas fa-star"></i>
-                                            <i class="product-icon fas fa-star"></i>
-                                             </div>
-                                        
-                                               <div class="cost">
-                                              <span class="product-price">€412</span>
-                                           <span class="shoping-bag"><i class="fas fa-shopping-bag"></i> </span> 
-                                            </div>
-                                          </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <a class="carousel-control-prev bg-transparent w-aut" href="#recipeCarousel" role="button" data-bs-slide="prev">
-                                   <span class="slider-arrow-left"><span class="fa fa-arrow-left" aria-hidden="true" aria-hidden="true"></span></span> 
-                                </a>
-                                <a class="carousel-control-next bg-transparent w-aut" href="#recipeCarousel" role="button" data-bs-slide="next">
-                                  <span class="slider-arrow-right"> <span class="fa fa-arrow-right" aria-hidden="true"></span> </span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    </div>
-                    <a href="javascript:void(0)" class="btn-product-slide"> <i class="fa fa-plus-circle" aria-hidden="true"></i></a>
-                    
-                    <!-- #tab4 --> 
-                  </div>
-                  <!-- .tab_container -->
-                  </div>
-                
-        </section>
-    <!--*********************
-        End Meilleures Ventes
-        ********************* -->
-
-    <!--**********************
-        Start Visitez Boutique
-        *********************** -->
-        <section class="visitez-boutique">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                     <h2 class="heading">Visitez Notre Boutique</h2>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-4 col-md-4 col-sm-12">
-                        <div class="boutique-img-left"></div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-12">
-                       <div class="boutique-img-center"></div>
-                   </div>
-                   <div class="col-lg-4 col-md-4 col-sm-12">
-                       <div class="boutique-img-right"></div>
-                   </div>
-                </div>
-            </div>
-        </section>
-    <!--********************
-        End Visitez Boutique
-        ******************** -->
-
-     <!--****************
-         Start Insta Shop
-         **************** -->
-        <section class="insta-shop">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                     <h2 class="heading">Insta Shop</h2>
-                     <p class="sub-heading">Mentionnez @madeles dans vos photos pour <br> apparaître sur nos réseaux et sur notre site.</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-4 col-md-4 col-sm-12">
-                        <div class="insta-img-left"></div>
-                        <h4>@camillepinkroses</h4>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-12">
-                       <div class="insta-img-center"></div>
-                       <h4>@aylev.interior</h4>
-
-                       <a href="javascript:void(0)" class="insta-btn"> <i class="fa fa-plus-circle" aria-hidden="true"></i></a>
-                      
-                   </div>
-                   <div class="col-lg-4 col-md-4 col-sm-12">
-                       <div class="insta-img-right"></div>
-                       <h4> @the.decor.edit</h4>
-                   </div>
-                </div>
-            </div>
-        </section>
-    <!--**************
-        End Insta Shop
-        ************** -->
-
-     <!--********************
-         Start Comment Marche
-         ******************** -->
-         <section class="comment-marche">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                     <h2 class="title">Comment Ça Marche</h2>
-                     
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-4 col-md-4 col-sm-12">
-                        <div class="comment-img-left"></div>
-                        <h4 class="heading">Choisir votre produit</h4>
-                        <p class="sub-heading">Cliquez sur le produit qui vous intéresse, <br>vous serez redirigé vers la fiche du produit <br> sur Amazon.</p>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-12">
-                       <div class="comment-img-center"></div>
-                       <h4 class="heading">Commandez en toute sécurité</h4>
-                       <p class="sub-heading">Commandez directement sur Amazon, <br> votre produit sera envoyé des entrepôts <br> d’Amazon.</p>
-                      
-                   </div>
-                   <div class="col-lg-4 col-md-4 col-sm-12">
-                       <div class="comment-img-right"></div>
-                       <h4 class="heading">Décorez votre intérieur</h4>
-                       <p class="sub-heading">Recevez votre commande chez vous et <br> décorez votre intérieur avec nos <br> nouveautés.</p>
-                   </div>
-                </div>
-            </div>
-        </section>
-    <!--******************
-        End Comment Marche
-        ****************** -->
-
-     <!--********************
-         Start Recevez nos
-         ******************** -->
-         <section class="recevez-nos">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                     <h2 class="title">Recevez nos nouveautés</h2>
-                     <p>Inscrivez vous pour recevoir des insipirations, nos <br> nouveautés produits, et les offres spéciales de <br> notre équipe.</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-4 col-md-4 col-sm-12">
-                        
-                    </div>
-                    <div class="col-lg-5 col-md-5 col-sm-12">
-                       <input type="text" placeholder="example@gmail.com" class="form-input">
-                       <a href="#" class="form-btn">Envoyer</a>
-                       
-                   </div>
-                   <div class="col-lg-3 col-md-3 col-sm-12">
-                       
-                   </div>
-                </div>
-            </div>
-        </section>
-    <!--******************
-        End Comment Marche
-        ****************** -->
+    </div>
+    <div class="row text-format">
+      <div class="col-12">
+        <h3>Welcome to Tutorgigs Tutor Satisfaction Survey</h3>
+        <h5>Thank you for taking part 😍</h5>
+        <p>Please complete this document to help us improve future sessions.</p>
         
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-2 col-md-2 col-sm-12">
 
-    <!--************
-        Start Footer
-        ************ -->
-    <footer class="footer-bg">
-      <div class="container">
-        <div class="row mobile-text">
-          <div class="col-lg-3 col-md-3 col-sm-12 footer-logo-format">
-            <a class="" href="#">MADELES</a>
+      </div>
+      <div class="col-lg-8 col-md-8 col-sm-12">
+        <div class="form-bg-img">
+          <form>
+          <span class="index-no">1. </span>  
+            <label> Your Name?</label>
+             <input type="text" class="form-control mt-3 input-name ">
+          <div class="form-format">
+          <span class="index-no">2. </span>  
+          <label class=""> How satisfied have you been with your overall experience tutoring this district?*<br>
+                  (1 = extremely dissatisfied; 5= extremely satisfied)</label><br>
+                  <button type="button" class="btn btn-light btn-mar active">1</button>
+                  <button type="button" class="btn btn-light btn-mar">2</button>
+                  <button type="button" class="btn btn-light btn-mar">3</button>
+                  <button type="button" class="btn btn-light btn-mar">4</button>
+                  <button type="button" class="btn btn-light btn-mar">5</button>
           </div>
-          <div class="col-lg-2 col-md-2 col-sm-12 footer-text-format">
-            <h4>Products</h4>
-            <a href="#">Meubles</a>
-            <a href="#">Decoration</a>
-            <a href="#">Luminaires</a>
-            <a href="#">Rangements</a>
-            <a href="#">Bébés & Enfants</a>
-          </div>
-          <div class="col-lg-2 col-md-2 col-sm-12 footer-text-format">
-            <h4>Piece</h4>
-            <a href="#">Meubles</a>
-            <a href="#">Decoration</a>
-            <a href="#">Luminaires</a>
-            <a href="#">Rangements</a>
-            <a href="#">Bébés & Enfants</a>
-          </div>
-          <div class="col-lg-2 col-md-2 col-sm-12 footer-text-format">
-            <h4>Plus</h4>
-            <a href="#">Meubles</a>
-            <a href="#">Decoration</a>
-            <a href="#">Luminaires</a>
-            <a href="#">Rangements</a>
-            <a href="#">Bébés & Enfants</a>
-          </div>
-          <div
-            class="col-lg-3 col-md-3 col-sm-12 footer-social-format footer-text-format"
-          >
-            <h4>Social</h4>
-            <i class="fab fa-facebook-f footer-social-icons"></i>
-            <i class="fab fa-instagram footer-social-icons"></i>
-            <i class="fab fa-twitter footer-social-icons"></i>
-            <i class="fab fa-youtube footer-social-icons"></i>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-12">
-            <div class="footer-bottom"></div>
-          </div>
-          <div class="col-12 footer-copyright">
-            <p>© 2022 MADELES | Tous droits réservés</p>
-          </div>
+          <div class="form-format">
+            <span class="index-no">3. </span>  
+            <label class="">How well do you think your skills as a tutor are matched with the needs of the student<br>
+                            with whom you work? (1 = very poor match; 5 = perfect match)</label><br>
+                    <button type="button" class="btn btn-light btn-mar">1</button>
+                    <button type="button" class="btn btn-light btn-mar">2</button>
+                    <button type="button" class="btn btn-light btn-mar">3</button>
+                    <button type="button" class="btn btn-light btn-mar">4</button>
+                    <button type="button" class="btn btn-light btn-mar">5</button>
+            </div>
+            <div class="form-format">
+              <span class="index-no">4. </span>  
+              <label class="">When you arrive to tutoring each session, do you feel the lesson provided is well <br>
+                              organized and easy to follow? (1=not at all; 5= very easy to follow and well organized)</label><br>
+                      <button type="button" class="btn btn-light btn-mar">1</button>
+                      <button type="button" class="btn btn-light btn-mar">2</button>
+                      <button type="button" class="btn btn-light btn-mar">3</button>
+                      <button type="button" class="btn btn-light btn-mar">4</button>
+                      <button type="button" class="btn btn-light btn-mar">5</button>
+              </div>
+              <div class="form-format">
+                <span class="index-no">5. </span>  
+                <label class="">When you are in a session, do you feel supported by our tutor support staff? <br>
+                                (1= not at all; 5= very supported)</label><br>
+                        <button type="button" class="btn btn-light btn-mar">1</button>
+                        <button type="button" class="btn btn-light btn-mar">2</button>
+                        <button type="button" class="btn btn-light btn-mar">3</button>
+                        <button type="button" class="btn btn-light btn-mar">4</button>
+                        <button type="button" class="btn btn-light btn-mar">5</button>
+                </div>
+                <div class="form-format">
+                  <span class="index-no">6. </span>  
+                  <label class="">When you are in a session and have a technical issue, do you feel satisfied with our speed <br>
+                                  to resolution? (1= not at all; 5= very satisfied)</label><br>
+                          <button type="button" class="btn btn-light btn-mar">1</button>
+                          <button type="button" class="btn btn-light btn-mar">2</button>
+                          <button type="button" class="btn btn-light btn-mar">3</button>
+                          <button type="button" class="btn btn-light btn-mar">4</button>
+                          <button type="button" class="btn btn-light btn-mar">5</button>
+                  </div>
+                  <div class="form-format">
+                    <span class="index-no">7. </span>  
+                    <label class="">When you arrive to the tutoring session, how often are students seated with all of their <br>
+                                    materials and ready to promptly begin working with you? (1=never; 5=nearly every time)</label><br>
+                            <button type="button" class="btn btn-light btn-mar">1</button>
+                            <button type="button" class="btn btn-light btn-mar">2</button>
+                            <button type="button" class="btn btn-light btn-mar">3</button>
+                            <button type="button" class="btn btn-light btn-mar">4</button>
+                            <button type="button" class="btn btn-light btn-mar">5</button>
+                    </div>
+                    <div class="form-format">
+                      <span class="index-no">8. </span>  
+                      <label class="">When a student has a technical issue, how confident do you feel in helping them resolve <br>
+                                      the issue? (1 = not at all confident; 5 = extremely confident)</label><br>
+                              <button type="button" class="btn btn-light btn-mar">1</button>
+                              <button type="button" class="btn btn-light btn-mar">2</button>
+                              <button type="button" class="btn btn-light btn-mar">3</button>
+                              <button type="button" class="btn btn-light btn-mar">4</button>
+                              <button type="button" class="btn btn-light btn-mar">5</button>
+                      </div>
+                      <div class="form-format">
+                        <span class="index-no">9. </span>  
+                        <label class="">When working with a student, do you feel confident that our lesson support staff<br>
+                                        supports you as a tutor and are available to assist as necessary or appropriate?<br>
+                                        (1 = not at all confident; 5 = extremely confident)</label><br>
+                                <button type="button" class="btn btn-light btn-mar">1</button>
+                                <button type="button" class="btn btn-light btn-mar">2</button>
+                                <button type="button" class="btn btn-light btn-mar">3</button>
+                                <button type="button" class="btn btn-light btn-mar">4</button>
+                                <button type="button" class="btn btn-light btn-mar">5</button>
+                        </div>
+                        <div class="form-format">
+                          <span class="index-no">10. </span>  
+                          <label class="">When working with a student, do you feel confident that school staff/ proxy supports you <br>
+                                          as a tutor and are available to assist as necessary?<br>
+                                           (1 = not at all confident; 5 = extremely confident)</label><br>
+                                  <button type="button" class="btn btn-light btn-mar">1</button>
+                                  <button type="button" class="btn btn-light btn-mar">2</button>
+                                  <button type="button" class="btn btn-light btn-mar">3</button>
+                                  <button type="button" class="btn btn-light btn-mar">4</button>
+                                  <button type="button" class="btn btn-light btn-mar">5</button>
+                          </div>
+                          <div class="form-format">
+                            <span class="index-no">11. </span>  
+                            <label class="">How would you rate the efficiency of communication with our tutor support team? Please<br> 
+                                            consider whether you feel informed of information related to tutoring in a timely fashion<br> 
+                                             and if you feel that your concerns and questions are adequately addressed.<br>
+                                              (1=very poor communication; 5 = very efficient and effective communication)</label><br>
+                                    <button type="button" class="btn btn-light btn-mar">1</button>
+                                    <button type="button" class="btn btn-light btn-mar">2</button>
+                                    <button type="button" class="btn btn-light btn-mar">3</button>
+                                    <button type="button" class="btn btn-light btn-mar">4</button>
+                                    <button type="button" class="btn btn-light btn-mar">5</button>
+                            </div>
+                            <div class="form-format">
+                              <span class="index-no">12. </span>  
+                              <label class="">Have you had to be re-matched with another student? If applicable, how well did support <br>
+                                              staff facilitate this process? (1=very poorly & 5=very well)</label><br>
+                                      <button type="button" class="btn btn-light btn-mar">1</button>
+                                      <button type="button" class="btn btn-light btn-mar">2</button>
+                                      <button type="button" class="btn btn-light btn-mar">3</button>
+                                      <button type="button" class="btn btn-light btn-mar">4</button>
+                                      <button type="button" class="btn btn-light btn-mar">5</button>
+                              </div>
+                              <div class="form-format">
+                                <span class="index-no">13. </span>  
+                                <label class="">Do you feel that Tutorgigs staff appreciates your time and efforts as a tutor?<br>
+                                  (1= not at all; 5= absolutely)</label><br>
+                                        <button type="button" class="btn btn-light btn-mar">1</button>
+                                        <button type="button" class="btn btn-light btn-mar">2</button>
+                                        <button type="button" class="btn btn-light btn-mar">3</button>
+                                        <button type="button" class="btn btn-light btn-mar">4</button>
+                                        <button type="button" class="btn btn-light btn-mar">5</button>
+                                </div>
+                                <div class="form-format">
+                                  <span class="index-no">14. </span>  
+                                  <label class="">Do you feel that the students you tutor appreciate your time and efforts as a tutor with<br>
+                                                  Tutorgigs? (1= not at all; 5= absolutely)</label><br>
+                                          <button type="button" class="btn btn-light btn-mar">1</button>
+                                          <button type="button" class="btn btn-light btn-mar">2</button>
+                                          <button type="button" class="btn btn-light btn-mar">3</button>
+                                          <button type="button" class="btn btn-light btn-mar">4</button>
+                                          <button type="button" class="btn btn-light btn-mar">5</button>
+                                  </div>
+                                  <div class="form-format">
+                                    <span class="index-no">15. </span>  
+                                    <label class="">Do you feel that parents of the students which you tutor appreciate your time and efforts<br>
+                                                     as a tutor with Tutorgigs? (1= not at all; 5= absolutely)</label><br>
+                                            <button type="button" class="btn btn-light btn-mar">1</button>
+                                            <button type="button" class="btn btn-light btn-mar">2</button>
+                                            <button type="button" class="btn btn-light btn-mar">3</button>
+                                            <button type="button" class="btn btn-light btn-mar">4</button>
+                                            <button type="button" class="btn btn-light btn-mar">5</button>
+                                    </div>
+                                    <div class="form-format">
+                                      <span class="index-no">16. </span>  
+                                      <label class="">Do you feel that tutoring is something you would like to do full time?<br>
+                                        (1= not at all; 5= absolutely)</label><br>
+                                              <button type="button" class="btn btn-light btn-mar">1</button>
+                                              <button type="button" class="btn btn-light btn-mar">2</button>
+                                              <button type="button" class="btn btn-light btn-mar">3</button>
+                                              <button type="button" class="btn btn-light btn-mar">4</button>
+                                              <button type="button" class="btn btn-light btn-mar">5</button>
+                                      </div>
+                                      <div class="form-format">
+                                        <span class="index-no">17. </span>  
+                                        <label class="">Are you new to tutoring with Tutorgigs? <30 days</label><br>
+                                                <input type="radio" class=" btn-mar" style="height:25px; width:25px; vertical-align: middle;"> <span class="radio-heading">Yes</span><br>
+                                                <input type="radio" class="btn-mar" style="height:25px; width:25px; vertical-align: middle;"> <span class="radio-heading"> No</span> 
+                                              
+                                        </div>
+                                        <div class="form-format">
+                                          <span class="index-no">18. </span>  
+                                          <label class="">If yes, how would you rate your tutor orientation experience?</label><br>
+                                            <textarea rows="3" cols="110" name="" class="txt-area"></textarea>
+                                                  
+                                                
+                                          </div>
+                                          <div class="form-format">
+                                            <span class="index-no">19. </span>  
+                                            <label class="">Do you plan on continuing to tutor with Tutorgigs?</label><br>
+                                                    <input type="radio" class=" btn-mar" style="height:25px; width:25px; vertical-align: middle;"> <span class="radio-heading">Yes</span><br>
+                                                    <input type="radio" class="btn-mar" style="height:25px; width:25px; vertical-align: middle;"> <span class="radio-heading"> No</span> <br>
+                                                    <input type="radio" class="btn-mar" style="height:25px; width:25px; vertical-align: middle;"> <span class="radio-heading"> Unsure</span> 
+                                                  
+                                            </div>
+                                            <div class="form-format">
+                                              <span class="index-no">20. </span>  
+                                              <label class="">If no, would you mind detailing your reasons for not returning? Thank you!</label><br>
+                                                <textarea rows="3" cols="110" name="" class="txt-area"></textarea>
+                                                      
+                                                    
+                                              </div>
+                                              <div class="submit-btn">
+                                                <button type="button" class="btn-sbmt btn-lg">Submit</button>
+                                              </div>
+          </form>
         </div>
       </div>
-    </footer>
+      <div class="col-lg-2 col-md-2 col-sm-12">
+        
+      </div>
+    </div>
+  </div>
+   </section>
 
-    <!--**********
-        End Footer
-        ********** -->
-
-    <script src="js/jquery-3.6.0.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/custom.js"></script>
+    
 
   </body>
 </html>
