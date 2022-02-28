@@ -17,7 +17,7 @@ $list : ((normal, bold, 10px),(emphasis, italic, 15px));
 //   Map each method
 $map :(normal: 12px, bold: 13px, italic: 14px);
 
-@each $i,$f-size in $map{
+@each $i, $f-size in $map{
     .#{$i}{
        font-weight: $i;
        font-size: $f-size;
