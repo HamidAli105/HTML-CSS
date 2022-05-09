@@ -1,0 +1,966 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Furniture Shop</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+
+  </head>
+  <body>
+    <!--************ 
+        Start Navbar
+        *********** -->
+    <div class="container-fluid">
+      <div class="row bg-navbar-custom">
+        <div class="col-lg-4 col-md-4 col-sm-12">
+          <div class="nav-toggle">
+            <div class="nav-toggle-bar"></div>
+          </div>
+
+          <nav id="nav" class="nav">
+            <ul>
+              <li><a href="furniture-shop.html">Furniture Shop</a></li>
+              <li><a href="product-page.html">Product Page</a></li>
+              <li><a href="Search-filter.html">Search & Filter</a></li>
+             
+            </ul>
+          </nav>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12 logo-format">
+          <a class="" href="https://musacomputerizedkanda.digital/madeles/">MADELES</a>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12">
+          <!-- <div class="input-group">
+            <div class="form-outline">
+              <input type="search" id="form1" class="form-control" />
+              
+            </div>
+            <button type="button" class="btn btn-primary">
+              <i class="fas fa-search"></i>
+            </button>
+          </div> -->
+         
+          <a  href="javascript:void(0)" class="header-searchbar">
+            <i class="fa fa-search" aria-hidden="true"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+    <!--**********
+            End Navbar
+            ********** -->
+
+    <!--**********
+        Start Hero
+        ********** -->
+
+    <div class="bg-hero-img"></div>
+
+    <!--********
+        End Hero
+        ******** -->
+
+    <!--***************
+        Start Icons Sec
+        *************** -->
+    <section class="bg-icon-clr">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-1 col-md-1 col-sm-12">
+            <span class="icon-box-vecter"> </span>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-12">
+            <p class="text-heading">Livraison Gratuite</p>
+            <p class="text-descraption">
+              Pour les membres Amazon Prime ou pour les commandes de plus de 25€
+            </p>
+          </div>
+          <div class="col-lg-1 col-md-1 col-sm-12">
+            <span class="icon-box-support"> </span>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-12">
+            <p class="text-heading">Support 24/7</p>
+            <p class="text-descraption">
+              Vous pouvez nous contacter sur notre site ou directement sur
+              Amazon
+            </p>
+          </div>
+          <div class="col-lg-1 col-md-1 col-sm-12">
+            <span class="icon-box-waranty"> </span>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-12">
+            <p class="text-heading">Haute-Qualité</p>
+            <p class="text-descraption">
+              Nos produits sont fabriqués à partir des meilleurs matériaux sur
+              le marché
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--*************
+        End Icons Sec
+        ************* -->
+
+    <!--********************
+        Start Nos Collection
+        ******************** -->
+         <section class="nos-collection">
+             <div class="container">
+             <div class="row">
+                 <div class="col-12">
+                  <h2 class="heading">Nos Collections</h2>
+                 </div>
+             </div>
+             <div class="row">
+                 <div class="col-lg-4 col-md-4 col-sm-12">
+                     <div class="colection-img-left"></div>
+                 </div>
+                 <div class="col-lg-4 col-md-4 col-sm-12">
+                    <div class="colection-img-center"></div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <div class="colection-img-right"></div>
+                </div>
+             </div>
+            </div>
+         </section>
+    <!--******************
+        End Nos Collection
+        ****************** -->
+
+    <!--**********************
+        Start Meilleures Ventes
+        *********************** -->
+        <section class="meilleures-ventes">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                     <h2 class="heading">Meilleures Ventes</h2>
+                    </div>
+                </div>
+                <div class="tabs-format">
+                <ul class="tabs">
+                    <li class="active" rel="tab1">Fauteuils</li>
+                    <li rel="tab2">Lits</li>
+                    <li rel="tab3">Canapés</li>
+                    <li rel="tab4">Lampes</li>
+                  </ul>
+                </div>
+                  <div class="tab_container ">
+                    <div id="tab1" class="tab_content meilleures-ventes-tab-bg ">
+                      <div class="container text-center my-3">
+                        <div class="row mx-auto my-auto justify-content-center">
+                            <div id="recipeCarousel" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner visitez-boutique" role="listbox">
+                                    <div class="carousel-item active meilleures-ventes-tab-bg ">
+                                        <div class="col-md-3">
+                                            <div class="card product--tabs">
+                                              <div class="product-image-one">
+                                              </div>
+                                              <h4>Sakarias Armchair</h4>
+                                              <div class="product-icon-mar">
+                                              <i class="product-icon fas fa-star"></i>
+                                              <i class="product-icon fas fa-star"></i>
+                                              <i class="product-icon fas fa-star"></i>
+                                              <i class="product-icon fas fa-star"></i>
+                                              <i class="product-icon fas fa-star"></i>
+                                               </div>
+                                          
+                                                 <div class="cost">
+                                                <span class="product-price">€392</span>
+                                             <span class="shoping-bag"><i class="fas fa-shopping-bag"></i> </span> 
+                                              </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="col-md-3">
+                                          <div class="card product--tabs">
+                                            <div class="product-image-two">
+                                              
+                                            </div>
+                                           
+                                            <h4>Baltsar Chair</h4>
+                                            <div class="product-icon-mar">
+                                            <i class="product-icon fas fa-star"></i>
+                                            <i class="product-icon fas fa-star"></i>
+                                            <i class="product-icon fas fa-star"></i>
+                                            <i class="product-icon fas fa-star"></i>
+                                            <i class="product-icon fas fa-star"></i>
+                                             </div>
+                                        
+                                               <div class="cost">
+                                              <span class="product-price">€412</span>
+                                           <span class="shoping-bag"><i class="fas fa-shopping-bag"></i> </span> 
+                                            </div>
+                                          </div>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="col-md-3">
+                                          <div class="card product--tabs">
+                                            <div class="product-image-three ">
+                                            </div>
+                                           
+                                            <h4>Anjay Chair</h4>
+                                            <div class="product-icon-mar">
+                                            <i class="product-icon fas fa-star"></i>
+                                            <i class="product-icon fas fa-star"></i>
+                                            <i class="product-icon fas fa-star"></i>
+                                            <i class="product-icon fas fa-star"></i>
+                                            <i class="product-icon fas fa-star"></i>
+                                             </div>
+                                        
+                                               <div class="cost">
+                                              <span class="product-price">€284</span>
+                                           <span class="shoping-bag"><i class="fas fa-shopping-bag"></i> </span> 
+                                            </div>
+                                          </div>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="col-md-3">
+                                          <div class="card product--tabs">
+                                            <div class="product-image-four">
+                                            </div>
+                                           
+                                            <h4>Nyantuy Chair</h4>
+                                            <div class="product-icon-mar">
+                                            <i class="product-icon fas fa-star"></i>
+                                            <i class="product-icon fas fa-star"></i>
+                                            <i class="product-icon fas fa-star"></i>
+                                            <i class="product-icon fas fa-star"></i>
+                                            <i class="product-icon fas fa-star"></i>
+                                             </div>
+                                        
+                                               <div class="cost">
+                                              <span class="product-price">€392</span>
+                                           <span class="shoping-bag"><i class="fas fa-shopping-bag"></i> </span> 
+                                            </div>
+                                          </div>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="col-md-3">
+                                          <div class="card product--tabs">
+                                            <div class="product-image-one">
+                                              
+                                            </div>
+                                           
+                                            <h4>Sakarias Armchair</h4>
+                                            <div class="product-icon-mar">
+                                            <i class="product-icon fas fa-star"></i>
+                                            <i class="product-icon fas fa-star"></i>
+                                            <i class="product-icon fas fa-star"></i>
+                                            <i class="product-icon fas fa-star"></i>
+                                            <i class="product-icon fas fa-star"></i>
+                                             </div>
+                                        
+                                               <div class="cost">
+                                              <span class="product-price">€392</span>
+                                           <span class="shoping-bag"><i class="fas fa-shopping-bag"></i> </span> 
+                                            </div>
+                                          </div>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="col-md-3">
+                                          <div class="card product--tabs">
+                                            <div class="product-image-two">
+                                              
+                                            </div>
+                                           
+                                            <h4>Baltsar Chair</h4>
+                                            <div class="product-icon-mar">
+                                            <i class="product-icon fas fa-star"></i>
+                                            <i class="product-icon fas fa-star"></i>
+                                            <i class="product-icon fas fa-star"></i>
+                                            <i class="product-icon fas fa-star"></i>
+                                            <i class="product-icon fas fa-star"></i>
+                                             </div>
+                                        
+                                               <div class="cost">
+                                              <span class="product-price">€412</span>
+                                           <span class="shoping-bag"><i class="fas fa-shopping-bag"></i> </span> 
+                                            </div>
+                                          </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a class="carousel-control-prev bg-transparent w-aut" href="#recipeCarousel" role="button" data-bs-slide="prev">
+                                   <span class="slider-arrow-left"><span class="fa fa-arrow-left" aria-hidden="true" aria-hidden="true"></span></span> 
+                                </a>
+                                <a class="carousel-control-next bg-transparent w-aut" href="#recipeCarousel" role="button" data-bs-slide="next">
+                                  <span class="slider-arrow-right"> <span class="fa fa-arrow-right" aria-hidden="true"></span> </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    <!-- #tab1 -->
+                    <div id="tab2" class="tab_content meilleures-ventes-tab-bg ">
+                      <div class="container text-center my-3">
+                        <div class="row mx-auto my-auto justify-content-center">
+                            <div id="recipeCarousel" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner visitez-boutique" role="listbox">
+                                    <div class="carousel-item active meilleures-ventes-tab-bg ">
+                                        <div class="col-md-3">
+                                            <div class="card product--tabs">
+                                              <div class="product-image-one">
+                                              </div>
+                                              <h4>Sakarias Armchair</h4>
+                                              <div class="product-icon-mar">
+                                              <i class="product-icon fas fa-star"></i>
+                                              <i class="product-icon fas fa-star"></i>
+                                              <i class="product-icon fas fa-star"></i>
+                                              <i class="product-icon fas fa-star"></i>
+                                              <i class="product-icon fas fa-star"></i>
+                                               </div>
+                                          
+                                                 <div class="cost">
+                                                <span class="product-price">€392</span>
+                                             <span class="shoping-bag"><i class="fas fa-shopping-bag"></i> </span> 
+                                              </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="col-md-3">
+                                          <div class="card product--tabs">
+                                            <div class="product-image-two">
+                                              
+                                            </div>
+                                           
+                                            <h4>Baltsar Chair</h4>
+                                            <div class="product-icon-mar">
+                                            <i class="product-icon fas fa-star"></i>
+                                            <i class="product-icon fas fa-star"></i>
+                                            <i class="product-icon fas fa-star"></i>
+                                            <i class="product-icon fas fa-star"></i>
+                                            <i class="product-icon fas fa-star"></i>
+                                             </div>
+                                        
+                                               <div class="cost">
+                                              <span class="product-price">€412</span>
+                                           <span class="shoping-bag"><i class="fas fa-shopping-bag"></i> </span> 
+                                            </div>
+                                          </div>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="col-md-3">
+                                          <div class="card product--tabs">
+                                            <div class="product-image-three ">
+                                            </div>
+                                           
+                                            <h4>Anjay Chair</h4>
+                                            <div class="product-icon-mar">
+                                            <i class="product-icon fas fa-star"></i>
+                                            <i class="product-icon fas fa-star"></i>
+                                            <i class="product-icon fas fa-star"></i>
+                                            <i class="product-icon fas fa-star"></i>
+                                            <i class="product-icon fas fa-star"></i>
+                                             </div>
+                                        
+                                               <div class="cost">
+                                              <span class="product-price">€284</span>
+                                           <span class="shoping-bag"><i class="fas fa-shopping-bag"></i> </span> 
+                                            </div>
+                                          </div>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="col-md-3">
+                                          <div class="card product--tabs">
+                                            <div class="product-image-four">
+                                            </div>
+                                           
+                                            <h4>Nyantuy Chair</h4>
+                                            <div class="product-icon-mar">
+                                            <i class="product-icon fas fa-star"></i>
+                                            <i class="product-icon fas fa-star"></i>
+                                            <i class="product-icon fas fa-star"></i>
+                                            <i class="product-icon fas fa-star"></i>
+                                            <i class="product-icon fas fa-star"></i>
+                                             </div>
+                                        
+                                               <div class="cost">
+                                              <span class="product-price">€392</span>
+                                           <span class="shoping-bag"><i class="fas fa-shopping-bag"></i> </span> 
+                                            </div>
+                                          </div>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="col-md-3">
+                                          <div class="card product--tabs">
+                                            <div class="product-image-one">
+                                              
+                                            </div>
+                                           
+                                            <h4>Sakarias Armchair</h4>
+                                            <div class="product-icon-mar">
+                                            <i class="product-icon fas fa-star"></i>
+                                            <i class="product-icon fas fa-star"></i>
+                                            <i class="product-icon fas fa-star"></i>
+                                            <i class="product-icon fas fa-star"></i>
+                                            <i class="product-icon fas fa-star"></i>
+                                             </div>
+                                        
+                                               <div class="cost">
+                                              <span class="product-price">€392</span>
+                                           <span class="shoping-bag"><i class="fas fa-shopping-bag"></i> </span> 
+                                            </div>
+                                          </div>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="col-md-3">
+                                          <div class="card product--tabs">
+                                            <div class="product-image-two">
+                                              
+                                            </div>
+                                           
+                                            <h4>Baltsar Chair</h4>
+                                            <div class="product-icon-mar">
+                                            <i class="product-icon fas fa-star"></i>
+                                            <i class="product-icon fas fa-star"></i>
+                                            <i class="product-icon fas fa-star"></i>
+                                            <i class="product-icon fas fa-star"></i>
+                                            <i class="product-icon fas fa-star"></i>
+                                             </div>
+                                        
+                                               <div class="cost">
+                                              <span class="product-price">€412</span>
+                                           <span class="shoping-bag"><i class="fas fa-shopping-bag"></i> </span> 
+                                            </div>
+                                          </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a class="carousel-control-prev bg-transparent w-aut" href="#recipeCarousel" role="button" data-bs-slide="prev">
+                                   <span class="slider-arrow-left"><span class="fa fa-arrow-left" aria-hidden="true" aria-hidden="true"></span></span> 
+                                </a>
+                                <a class="carousel-control-next bg-transparent w-aut" href="#recipeCarousel" role="button" data-bs-slide="next">
+                                  <span class="slider-arrow-right"> <span class="fa fa-arrow-right" aria-hidden="true"></span> </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    <!-- #tab2 -->
+                    <div id="tab3" class="tab_content">
+                      <div class="container text-center my-3">
+                        <div class="row mx-auto my-auto justify-content-center">
+                            <div id="recipeCarousel" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner visitez-boutique" role="listbox">
+                                    <div class="carousel-item active meilleures-ventes-tab-bg ">
+                                        <div class="col-md-3">
+                                            <div class="card product--tabs">
+                                              <div class="product-image-one">
+                                              </div>
+                                              <h4>Sakarias Armchair</h4>
+                                              <div class="product-icon-mar">
+                                              <i class="product-icon fas fa-star"></i>
+                                              <i class="product-icon fas fa-star"></i>
+                                              <i class="product-icon fas fa-star"></i>
+                                              <i class="product-icon fas fa-star"></i>
+                                              <i class="product-icon fas fa-star"></i>
+                                               </div>
+                                          
+                                                 <div class="cost">
+                                                <span class="product-price">€392</span>
+                                             <span class="shoping-bag"><i class="fas fa-shopping-bag"></i> </span> 
+                                              </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="col-md-3">
+                                          <div class="card product--tabs">
+                                            <div class="product-image-two">
+                                              
+                                            </div>
+                                           
+                                            <h4>Baltsar Chair</h4>
+                                            <div class="product-icon-mar">
+                                            <i class="product-icon fas fa-star"></i>
+                                            <i class="product-icon fas fa-star"></i>
+                                            <i class="product-icon fas fa-star"></i>
+                                            <i class="product-icon fas fa-star"></i>
+                                            <i class="product-icon fas fa-star"></i>
+                                             </div>
+                                        
+                                               <div class="cost">
+                                              <span class="product-price">€412</span>
+                                           <span class="shoping-bag"><i class="fas fa-shopping-bag"></i> </span> 
+                                            </div>
+                                          </div>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="col-md-3">
+                                          <div class="card product--tabs">
+                                            <div class="product-image-three ">
+                                            </div>
+                                           
+                                            <h4>Anjay Chair</h4>
+                                            <div class="product-icon-mar">
+                                            <i class="product-icon fas fa-star"></i>
+                                            <i class="product-icon fas fa-star"></i>
+                                            <i class="product-icon fas fa-star"></i>
+                                            <i class="product-icon fas fa-star"></i>
+                                            <i class="product-icon fas fa-star"></i>
+                                             </div>
+                                        
+                                               <div class="cost">
+                                              <span class="product-price">€284</span>
+                                           <span class="shoping-bag"><i class="fas fa-shopping-bag"></i> </span> 
+                                            </div>
+                                          </div>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="col-md-3">
+                                          <div class="card product--tabs">
+                                            <div class="product-image-four">
+                                            </div>
+                                           
+                                            <h4>Nyantuy Chair</h4>
+                                            <div class="product-icon-mar">
+                                            <i class="product-icon fas fa-star"></i>
+                                            <i class="product-icon fas fa-star"></i>
+                                            <i class="product-icon fas fa-star"></i>
+                                            <i class="product-icon fas fa-star"></i>
+                                            <i class="product-icon fas fa-star"></i>
+                                             </div>
+                                        
+                                               <div class="cost">
+                                              <span class="product-price">€392</span>
+                                           <span class="shoping-bag"><i class="fas fa-shopping-bag"></i> </span> 
+                                            </div>
+                                          </div>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="col-md-3">
+                                          <div class="card product--tabs">
+                                            <div class="product-image-one">
+                                              
+                                            </div>
+                                           
+                                            <h4>Sakarias Armchair</h4>
+                                            <div class="product-icon-mar">
+                                            <i class="product-icon fas fa-star"></i>
+                                            <i class="product-icon fas fa-star"></i>
+                                            <i class="product-icon fas fa-star"></i>
+                                            <i class="product-icon fas fa-star"></i>
+                                            <i class="product-icon fas fa-star"></i>
+                                             </div>
+                                        
+                                               <div class="cost">
+                                              <span class="product-price">€392</span>
+                                           <span class="shoping-bag"><i class="fas fa-shopping-bag"></i> </span> 
+                                            </div>
+                                          </div>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="col-md-3">
+                                          <div class="card product--tabs">
+                                            <div class="product-image-two">
+                                              
+                                            </div>
+                                           
+                                            <h4>Baltsar Chair</h4>
+                                            <div class="product-icon-mar">
+                                            <i class="product-icon fas fa-star"></i>
+                                            <i class="product-icon fas fa-star"></i>
+                                            <i class="product-icon fas fa-star"></i>
+                                            <i class="product-icon fas fa-star"></i>
+                                            <i class="product-icon fas fa-star"></i>
+                                             </div>
+                                        
+                                               <div class="cost">
+                                              <span class="product-price">€412</span>
+                                           <span class="shoping-bag"><i class="fas fa-shopping-bag"></i> </span> 
+                                            </div>
+                                          </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a class="carousel-control-prev bg-transparent w-aut" href="#recipeCarousel" role="button" data-bs-slide="prev">
+                                   <span class="slider-arrow-left"><span class="fa fa-arrow-left" aria-hidden="true" aria-hidden="true"></span></span> 
+                                </a>
+                                <a class="carousel-control-next bg-transparent w-aut" href="#recipeCarousel" role="button" data-bs-slide="next">
+                                  <span class="slider-arrow-right"> <span class="fa fa-arrow-right" aria-hidden="true"></span> </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    <!-- #tab3 -->
+                    <div id="tab4" class="tab_content">
+                      <div class="container text-center my-3">
+                        <div class="row mx-auto my-auto justify-content-center">
+                            <div id="recipeCarousel" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner visitez-boutique" role="listbox">
+                                    <div class="carousel-item active meilleures-ventes-tab-bg ">
+                                        <div class="col-md-3">
+                                            <div class="card product--tabs">
+                                              <div class="product-image-one">
+                                              </div>
+                                              <h4>Sakarias Armchair</h4>
+                                              <div class="product-icon-mar">
+                                              <i class="product-icon fas fa-star"></i>
+                                              <i class="product-icon fas fa-star"></i>
+                                              <i class="product-icon fas fa-star"></i>
+                                              <i class="product-icon fas fa-star"></i>
+                                              <i class="product-icon fas fa-star"></i>
+                                               </div>
+                                          
+                                                 <div class="cost">
+                                                <span class="product-price">€392</span>
+                                             <span class="shoping-bag"><i class="fas fa-shopping-bag"></i> </span> 
+                                              </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="col-md-3">
+                                          <div class="card product--tabs">
+                                            <div class="product-image-two">
+                                              
+                                            </div>
+                                           
+                                            <h4>Baltsar Chair</h4>
+                                            <div class="product-icon-mar">
+                                            <i class="product-icon fas fa-star"></i>
+                                            <i class="product-icon fas fa-star"></i>
+                                            <i class="product-icon fas fa-star"></i>
+                                            <i class="product-icon fas fa-star"></i>
+                                            <i class="product-icon fas fa-star"></i>
+                                             </div>
+                                        
+                                               <div class="cost">
+                                              <span class="product-price">€412</span>
+                                           <span class="shoping-bag"><i class="fas fa-shopping-bag"></i> </span> 
+                                            </div>
+                                          </div>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="col-md-3">
+                                          <div class="card product--tabs">
+                                            <div class="product-image-three ">
+                                            </div>
+                                           
+                                            <h4>Anjay Chair</h4>
+                                            <div class="product-icon-mar">
+                                            <i class="product-icon fas fa-star"></i>
+                                            <i class="product-icon fas fa-star"></i>
+                                            <i class="product-icon fas fa-star"></i>
+                                            <i class="product-icon fas fa-star"></i>
+                                            <i class="product-icon fas fa-star"></i>
+                                             </div>
+                                        
+                                               <div class="cost">
+                                              <span class="product-price">€284</span>
+                                           <span class="shoping-bag"><i class="fas fa-shopping-bag"></i> </span> 
+                                            </div>
+                                          </div>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="col-md-3">
+                                          <div class="card product--tabs">
+                                            <div class="product-image-four">
+                                            </div>
+                                           
+                                            <h4>Nyantuy Chair</h4>
+                                            <div class="product-icon-mar">
+                                            <i class="product-icon fas fa-star"></i>
+                                            <i class="product-icon fas fa-star"></i>
+                                            <i class="product-icon fas fa-star"></i>
+                                            <i class="product-icon fas fa-star"></i>
+                                            <i class="product-icon fas fa-star"></i>
+                                             </div>
+                                        
+                                               <div class="cost">
+                                              <span class="product-price">€392</span>
+                                           <span class="shoping-bag"><i class="fas fa-shopping-bag"></i> </span> 
+                                            </div>
+                                          </div>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="col-md-3">
+                                          <div class="card product--tabs">
+                                            <div class="product-image-one">
+                                              
+                                            </div>
+                                           
+                                            <h4>Sakarias Armchair</h4>
+                                            <div class="product-icon-mar">
+                                            <i class="product-icon fas fa-star"></i>
+                                            <i class="product-icon fas fa-star"></i>
+                                            <i class="product-icon fas fa-star"></i>
+                                            <i class="product-icon fas fa-star"></i>
+                                            <i class="product-icon fas fa-star"></i>
+                                             </div>
+                                        
+                                               <div class="cost">
+                                              <span class="product-price">€392</span>
+                                           <span class="shoping-bag"><i class="fas fa-shopping-bag"></i> </span> 
+                                            </div>
+                                          </div>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="col-md-3">
+                                          <div class="card product--tabs">
+                                            <div class="product-image-two">
+                                              
+                                            </div>
+                                           
+                                            <h4>Baltsar Chair</h4>
+                                            <div class="product-icon-mar">
+                                            <i class="product-icon fas fa-star"></i>
+                                            <i class="product-icon fas fa-star"></i>
+                                            <i class="product-icon fas fa-star"></i>
+                                            <i class="product-icon fas fa-star"></i>
+                                            <i class="product-icon fas fa-star"></i>
+                                             </div>
+                                        
+                                               <div class="cost">
+                                              <span class="product-price">€412</span>
+                                           <span class="shoping-bag"><i class="fas fa-shopping-bag"></i> </span> 
+                                            </div>
+                                          </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a class="carousel-control-prev bg-transparent w-aut" href="#recipeCarousel" role="button" data-bs-slide="prev">
+                                   <span class="slider-arrow-left"><span class="fa fa-arrow-left" aria-hidden="true" aria-hidden="true"></span></span> 
+                                </a>
+                                <a class="carousel-control-next bg-transparent w-aut" href="#recipeCarousel" role="button" data-bs-slide="next">
+                                  <span class="slider-arrow-right"> <span class="fa fa-arrow-right" aria-hidden="true"></span> </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    </div>
+                    <a href="javascript:void(0)" class="btn-product-slide"> <i class="fa fa-plus-circle" aria-hidden="true"></i></a>
+                    
+                    <!-- #tab4 --> 
+                  </div>
+                  <!-- .tab_container -->
+                  </div>
+                
+        </section>
+    <!--*********************
+        End Meilleures Ventes
+        ********************* -->
+
+    <!--**********************
+        Start Visitez Boutique
+        *********************** -->
+        <section class="visitez-boutique">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                     <h2 class="heading">Visitez Notre Boutique</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-12">
+                        <div class="boutique-img-left"></div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12">
+                       <div class="boutique-img-center"></div>
+                   </div>
+                   <div class="col-lg-4 col-md-4 col-sm-12">
+                       <div class="boutique-img-right"></div>
+                   </div>
+                </div>
+            </div>
+        </section>
+    <!--********************
+        End Visitez Boutique
+        ******************** -->
+
+     <!--****************
+         Start Insta Shop
+         **************** -->
+        <section class="insta-shop">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                     <h2 class="heading">Insta Shop</h2>
+                     <p class="sub-heading">Mentionnez @madeles dans vos photos pour <br> apparaître sur nos réseaux et sur notre site.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-12">
+                        <div class="insta-img-left"></div>
+                        <h4>@camillepinkroses</h4>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12">
+                       <div class="insta-img-center"></div>
+                       <h4>@aylev.interior</h4>
+
+                       <a href="javascript:void(0)" class="insta-btn"> <i class="fa fa-plus-circle" aria-hidden="true"></i></a>
+                      
+                   </div>
+                   <div class="col-lg-4 col-md-4 col-sm-12">
+                       <div class="insta-img-right"></div>
+                       <h4> @the.decor.edit</h4>
+                   </div>
+                </div>
+            </div>
+        </section>
+    <!--**************
+        End Insta Shop
+        ************** -->
+
+     <!--********************
+         Start Comment Marche
+         ******************** -->
+         <section class="comment-marche">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                     <h2 class="title">Comment Ça Marche</h2>
+                     
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-12">
+                        <div class="comment-img-left"></div>
+                        <h4 class="heading">Choisir votre produit</h4>
+                        <p class="sub-heading">Cliquez sur le produit qui vous intéresse, <br>vous serez redirigé vers la fiche du produit <br> sur Amazon.</p>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12">
+                       <div class="comment-img-center"></div>
+                       <h4 class="heading">Commandez en toute sécurité</h4>
+                       <p class="sub-heading">Commandez directement sur Amazon, <br> votre produit sera envoyé des entrepôts <br> d’Amazon.</p>
+                      
+                   </div>
+                   <div class="col-lg-4 col-md-4 col-sm-12">
+                       <div class="comment-img-right"></div>
+                       <h4 class="heading">Décorez votre intérieur</h4>
+                       <p class="sub-heading">Recevez votre commande chez vous et <br> décorez votre intérieur avec nos <br> nouveautés.</p>
+                   </div>
+                </div>
+            </div>
+        </section>
+    <!--******************
+        End Comment Marche
+        ****************** -->
+
+     <!--********************
+         Start Recevez nos
+         ******************** -->
+         <section class="recevez-nos">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                     <h2 class="title">Recevez nos nouveautés</h2>
+                     <p>Inscrivez vous pour recevoir des insipirations, nos <br> nouveautés produits, et les offres spéciales de <br> notre équipe.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-12">
+                        
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-12">
+                       <input type="text" placeholder="example@gmail.com" class="form-input">
+                       <a href="#" class="form-btn">Envoyer</a>
+                       
+                   </div>
+                   <div class="col-lg-3 col-md-3 col-sm-12">
+                       
+                   </div>
+                </div>
+            </div>
+        </section>
+    <!--******************
+        End Comment Marche
+        ****************** -->
+        
+
+    <!--************
+        Start Footer
+        ************ -->
+    <footer class="footer-bg">
+      <div class="container">
+        <div class="row mobile-text">
+          <div class="col-lg-3 col-md-3 col-sm-12 footer-logo-format">
+            <a class="" href="#">MADELES</a>
+          </div>
+          <div class="col-lg-2 col-md-2 col-sm-12 footer-text-format">
+            <h4>Products</h4>
+            <a href="#">Meubles</a>
+            <a href="#">Decoration</a>
+            <a href="#">Luminaires</a>
+            <a href="#">Rangements</a>
+            <a href="#">Bébés & Enfants</a>
+          </div>
+          <div class="col-lg-2 col-md-2 col-sm-12 footer-text-format">
+            <h4>Piece</h4>
+            <a href="#">Meubles</a>
+            <a href="#">Decoration</a>
+            <a href="#">Luminaires</a>
+            <a href="#">Rangements</a>
+            <a href="#">Bébés & Enfants</a>
+          </div>
+          <div class="col-lg-2 col-md-2 col-sm-12 footer-text-format">
+            <h4>Plus</h4>
+            <a href="#">Meubles</a>
+            <a href="#">Decoration</a>
+            <a href="#">Luminaires</a>
+            <a href="#">Rangements</a>
+            <a href="#">Bébés & Enfants</a>
+          </div>
+          <div
+            class="col-lg-3 col-md-3 col-sm-12 footer-social-format footer-text-format"
+          >
+            <h4>Social</h4>
+            <i class="fab fa-facebook-f footer-social-icons"></i>
+            <i class="fab fa-instagram footer-social-icons"></i>
+            <i class="fab fa-twitter footer-social-icons"></i>
+            <i class="fab fa-youtube footer-social-icons"></i>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-12">
+            <div class="footer-bottom"></div>
+          </div>
+          <div class="col-12 footer-copyright">
+            <p>© 2022 MADELES | Tous droits réservés</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!--**********
+        End Footer
+        ********** -->
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/custom.js"></script>
+
+  </body>
+</html>
