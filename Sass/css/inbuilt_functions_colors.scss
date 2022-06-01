@@ -22,9 +22,6 @@ $base-color:green;
     background-color: adjust-hue($base-color, 20);
    }
 
-// #eight{
-//     background-color: saturate($base-color, 10);
-//    }
    #eight{
     background-color: desaturate($base-color, 10);
    }
