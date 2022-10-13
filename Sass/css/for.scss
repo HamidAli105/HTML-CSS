@@ -1,5 +1,5 @@
 // method one
-@for $i from 1 through 4 {
+@for $i from 1 through 5 {
     .list-#{$i}{
         width: 100px * $i;
         background: darken(pink, $i * 10%);
@@ -7,7 +7,7 @@
 }
 
 // Method two
-@for $i from 1 to 4 {
+@for $i from 1 to 5 {
     .list-#{$i}{
         width: 100px * $i;
         background: darken(pink, $i * 10%);
