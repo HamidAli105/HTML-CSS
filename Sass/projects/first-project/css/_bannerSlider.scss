@@ -1,28 +1,12 @@
-.header-bg {
-  background-color: #F8F9FA; }
-
-.header-logo {
-  max-width: 50px;
-  max-height: 50px; }
-
-.header-font {
-  font-family: "Times New Roman", Times, serif; }
-
-.body-font {
-  font-family: Arial, Helvetica, sans-serif; }
-
-.footer-font {
-  font-family: "Lucida Console", "Courier New", monospace; }
-
 header .item {
   height: 100vh;
-  position: relative; }
-
+  position: relative;
+}
 header .item img {
   width: 100%;
   height: 100%;
-  object-fit: cover; }
-
+  object-fit: cover;
+}
 header .item .cover {
   padding: 75px 0;
   position: absolute;
@@ -32,13 +16,13 @@ header .item .cover {
   left: 0;
   background: rgba(0, 0, 0, 0.6);
   display: flex;
-  align-items: center; }
-
+  align-items: center;
+}
 header .item .cover .header-content {
   position: relative;
   padding: 56px;
-  overflow: hidden; }
-
+  overflow: hidden;
+}
 header .item .cover .header-content .line {
   content: "";
   display: inline-block;
@@ -49,58 +33,58 @@ header .item .cover .header-content .line {
   position: absolute;
   border: 9px solid #fff;
   -webkit-clip-path: polygon(0 0, 60% 0, 36% 100%, 0 100%);
-  clip-path: polygon(0 0, 60% 0, 36% 100%, 0 100%); }
-
+  clip-path: polygon(0 0, 60% 0, 36% 100%, 0 100%);
+}
 header .item .cover .header-content h2 {
   font-weight: 300;
   font-size: 35px;
-  color: #fff; }
-
+  color: #fff;
+}
 header .item .cover .header-content h1 {
   font-size: 56px;
   font-weight: 600;
   margin: 5px 0 20px;
   word-spacing: 3px;
-  color: #fff; }
-
+  color: #fff;
+}
 header .item .cover .header-content h4 {
   font-size: 24px;
   font-weight: 300;
   line-height: 36px;
-  color: #fff; }
-
+  color: #fff;
+}
 header .owl-item.active h1 {
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
   animation-name: fadeInDown;
-  animation-delay: 0.3s; }
-
+  animation-delay: 0.3s;
+}
 header .owl-item.active h2 {
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
   animation-name: fadeInDown;
-  animation-delay: 0.3s; }
-
+  animation-delay: 0.3s;
+}
 header .owl-item.active h4 {
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
   animation-name: fadeInUp;
-  animation-delay: 0.3s; }
-
+  animation-delay: 0.3s;
+}
 header .owl-item.active .line {
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
   animation-name: fadeInLeft;
-  animation-delay: 0.3s; }
-
+  animation-delay: 0.3s;
+}
 header .owl-nav .owl-prev {
   position: absolute;
   left: 15px;
@@ -115,18 +99,18 @@ header .owl-nav .owl-prev {
   position: absolute;
   display: block;
   z-index: 1000;
-  border-radius: 0; }
-
+  border-radius: 0;
+}
 header .owl-nav .owl-prev span {
   font-size: 1.6875rem;
-  color: #fff; }
-
+  color: #fff;
+}
 header .owl-nav .owl-prev:focus {
-  outline: 0; }
-
+  outline: 0;
+}
 header .owl-nav .owl-prev:hover {
-  background: #000 !important; }
-
+  background: #000 !important;
+}
 header .owl-nav .owl-next {
   position: absolute;
   right: 15px;
@@ -141,24 +125,23 @@ header .owl-nav .owl-next {
   position: absolute;
   display: block;
   z-index: 1000;
-  border-radius: 0; }
-
+  border-radius: 0;
+}
 header .owl-nav .owl-next span {
   font-size: 1.6875rem;
-  color: #fff; }
-
+  color: #fff;
+}
 header .owl-nav .owl-next:focus {
-  outline: 0; }
-
+  outline: 0;
+}
 header .owl-nav .owl-next:hover {
-  background: #000 !important; }
-
+  background: #000 !important;
+}
 header:hover .owl-prev {
   left: 0px;
-  opacity: 1; }
-
+  opacity: 1;
+}
 header:hover .owl-next {
   right: 0px;
-  opacity: 1; }
-
-/*# sourceMappingURL=style.css.map */
+  opacity: 1;
+}

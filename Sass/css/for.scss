@@ -13,3 +13,10 @@
         background: darken(pink, $i * 10%);
     }
 }
+
+@for $x from 10 to 15 {
+ .box-#{$x}{
+    width: 300px * $x;
+    background: darken(green, $x * 15%);
+ }
+}
