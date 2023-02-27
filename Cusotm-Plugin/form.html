@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi dropdown</title>
+</head>
+<style>
+    label {
+  display: block;
+  font-size: 13.3333px;
+  vertical-align: middle;
+}
+
+input[type="text"] {
+  cursor: default;
+  width: 200px;
+}
+
+input[type="checkbox"] {
+    vertical-align: middle;
+}
+</style>
+<body>
+    <div>
+        <select id="001" multiple>
+          <option value="pakistan">Pakisan</option>
+          <option value="dubai">Dubai</option>
+          <option value="uk">UK</option>
+          <option value="8">New York</option>
+        </select>
+      </div> 
+
+      <script>
+        convertSelect("001", "Options");
+
+function convertSelect(el_id, name) {
+    let el = document.getElementById(el_id), opts = Array.from(el.options);
+
+    let input_el = document.createElement('input');
+    input_el.setAttribute('id', el_id + '_input');
+    input_el.setAttribute('type', 'text');
+    input_el.setAttribute('autocomplete', 'off');
+    input_el.setAttribute('readonly', 'readonly');
+    input_el.addEventListener('focus', () => document.getElementById(el_id + '_span').style.display = "");
+    input_el.addEventListener('blur', () => blur(el_id));
+    el.parentNode.insertBefore(input_el, el.nextSibling);
+
+    let span_el = document.createElement('span');
+    span_el.setAttribute('id', el_id + '_span');
+    span_el.setAttribute('style', `min-width:${(input_el.offsetWidth-2)}px;margin-top:${input_el.offsetHeight}px;margin-left:-${input_el.offsetWidth}px;position:absolute;border:1px solid grey;display:none;z-index:9999;text-align:left;background:white;max-height:130px;overflow-y:auto;overflow-x:hidden;`);
+    span_el.addEventListener('mouseout', () => blur(el_id));
+    span_el.addEventListener('click', () => document.getElementById(el_id + '_input').focus());
+    input_el.parentNode.insertBefore(span_el, input_el.nextSibling);
+
+    opts.forEach((opt, i) => {
+        let temp_label = document.createElement('label');
+        temp_label.setAttribute('for', el_id + '_' + i);
+
+        let temp_input = document.createElement('input');
+        temp_input.setAttribute('style', 'width:auto;');
+        temp_input.setAttribute('type', 'checkbox');
+        temp_input.setAttribute('id', el_id + '_' + i);
+        temp_input.checked = opt.selected;
+        temp_input.disabled = opt.disabled || el.disabled;
+        temp_input.addEventListener('change', () => check(el_id, name));
+
+        temp_label.appendChild(temp_input);
+        temp_label.appendChild(document.createTextNode(opt.textContent));
+        span_el.appendChild(temp_label);
+    });
+    el.style.display = 'none';
+    check(el_id, name);
+}
+
+
+function blur(el_id) {
+    let el = document.getElementById(el_id);
+    clearTimeout(parseInt(el.dataset.timer));
+    el.dataset.timer = setTimeout(() => {
+        if (document.activeElement.id !== el_id + '_input' && document.activeElement.id !== el_id + '_span')
+            document.getElementById(el_id + '_span').style.display = "none";
+    }, 200).toString();
+}
+
+function check(el_id, name) {
+    let el = document.getElementById(el_id),
+        opts = Array.from(el.options),
+        select_qty = 0,
+        select_name;
+
+    opts.forEach((opt, i) => {
+        let checkbox = document.getElementById(`${el_id}_${i}`);
+
+        el.options[i].selected = checkbox.checked;
+        if (checkbox.checked) {
+            select_name = checkbox.parentElement.childNodes[1].textContent;
+            select_qty++;
+        }
+        document.getElementById(`${el_id}_input`).value = select_qty < 1 ? '' : (select_qty > 1 ? `${select_qty} ${name}` : select_name);
+    });
+
+    el.dispatchEvent(new Event('change', { 'bubbles': true }));
+}
+      </script>
+</body>
+</html>
