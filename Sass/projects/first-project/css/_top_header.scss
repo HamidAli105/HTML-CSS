@@ -1,0 +1,39 @@
+.top-header{
+ background: linear-gradient(107.63deg, #EEDBE0 0%, #E1EEA7 97.85%);
+ padding-top: 10px;
+ padding-bottom: 40px;
+}
+.header-social-icon .social-heading {
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 19px;
+    color: #605D5A;
+} 
+.header-logo img {
+    margin: 0 auto;
+    display: flex;
+} 
+.top-header-wrap {
+    align-items: baseline;
+}
+.header-social-icon .fb-icon {
+    margin-left: 8px;
+    margin-right: 8px;
+}
+.top-header .header-btn a {
+    text-decoration: none;
+    background: #FFE2DE;
+    border: 1px solid #000000;
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 22px;
+    color: #605D5A;
+    padding: 15px 25px;
+} 
+.top-header .header-btn {
+    text-align: center;
+}     
